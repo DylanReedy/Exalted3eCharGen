@@ -1,0 +1,27 @@
+﻿[
+ {
+   "Name": "Allies",
+   "Cost": [2,3,4,5],
+   "Text": "You have allies"
+ },
+ {
+   "Name": "Ambidextrous",
+   "Cost": [2,5],
+   "Text": "You are ambidextrous"
+ },
+ {
+   "Name": "Artifact",
+   "Cost": [2,3,4],
+   "Text": "You have an artifact"
+ },
+ {
+   "Name": "Boundless Endurance",
+   "Cost": [2],
+   "Text": "You have boundless endurance"
+ },
+ {
+   "Name": "Command",
+   "Cost": [2,4],
+   "Text": "You have command"
+ }
+]

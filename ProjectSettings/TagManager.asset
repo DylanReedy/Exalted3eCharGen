@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ability_Toggle_1
+  - Ability_Toggle_2
+  - Ability_Toggle_3
+  - Ability_Toggle_4
+  - Ability_Toggle_5
+  - Ability_Toggle_Spec
+  - Attribute_Toggle_1
+  - Attribute_Toggle_2
+  - Attribute_Toggle_3
+  - Attribute_Toggle_4
+  - Attribute_Toggle_5
+  - MeritObject1
+  - MeritObject2
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
