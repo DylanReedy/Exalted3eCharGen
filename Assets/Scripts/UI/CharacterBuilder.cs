@@ -319,4 +319,10 @@ public class CharacterBuilder : MonoBehaviour {
 		print (GameData.CharmLibrary.Awareness [5].Description);
 	}
 
+	public void Test(){
+		GameObject test = Resources.Load<GameObject> ("Prefabs/UI/Weapon");
+		GameObject newTest = Instantiate<GameObject> (test);
+		newTest.transform.SetParent (WeaponPanel.transform);
+	}
+
 }
