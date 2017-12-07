@@ -55,6 +55,8 @@ public class ScreenManager : MonoBehaviour {
 		StartPanel.SetActive (false);
 		OverviewPanel.SetActive (true);
 		charBuilder.InitializeInterface ();
+		charBuilder.LoadCharacter ();
+		charManager.character = new Character ();
 	}
 
 

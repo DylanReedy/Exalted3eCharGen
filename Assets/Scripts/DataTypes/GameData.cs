@@ -4,6 +4,7 @@ using UnityEngine;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Threading;
 
 
 public static class GameData{
@@ -75,37 +76,6 @@ public static class GameData{
 //			public List<Charm>  = new List<Charm>();
 		}
 	}
-
-//	public static CharmContainer CharmContainer = Utils.LoadCharms("Assets/Resources/Data/Charms.txt");
-
-//	public static void PrintCharms(){
-//		Charms = CharmContainer.Charms;
-//		foreach (Charm c in Charms) {
-//			Debug.Log ("name: " + c.Name +
-//				", abil:" + c.Ability +
-//				", cost number:" + c.Cost +
-//				", type:" + c.Type +
-//				", keywords number:" + c.Keywords.Count +
-//				", abil min:" + c.AbilityMin +
-//				", upgrade:" + c.IsUpgrade.ToString() +
-//				", ess min:" + c.EssenceMin);
-//		}
-//	}
-
-//	public static MeritContainer MeritContainer = Utils.LoadMerits("Assets/Resources/Data/Merits.txt");
-//
-//	public static List<Merit> Merits;
-
-//	public static List<Charm> GetCharms(int i){
-//		List<Charm> returnCharms = new List<Charm> ();
-//		foreach (Charm c in Charms) {
-//			if (c.Ability == i) {
-//				returnCharms.Add (c);
-//			}
-//		}
-//		return returnCharms;
-//	}
-
 }
 
 public static class Caste{
@@ -216,4 +186,41 @@ public class IntimacyContainer{
 [Serializable]
 public class SavedCharacters{
 	public List<string> Characters = new List<string>();
+}
+
+[Serializable]
+public class GearList{
+	public List<Weapon> Weapons = new List<Weapon>();
+}
+
+[Serializable]
+public class Weapon{
+
+	public Weapon(){
+		Debug.Log ("b id: " + ID);
+		Debug.Log ("b hash: " + WeaponHash);
+		Interlocked.Increment (ref WeaponHash);
+		ID = Weapon.WeaponHash;
+		Debug.Log ("a id: " + ID);
+		Debug.Log ("a hash: " + WeaponHash);
+	}
+
+	public string Name;
+	public string Accuracy;
+	public string Damage;
+	public string Defense;
+	public string Overwhelming;
+	public string Parry;
+	public string Tags;
+	public string Description;
+	public int ID;
+	public static int WeaponHash;
+
+	public override bool Equals (object obj)
+	{
+		Weapon wep = (Weapon)obj;
+		Debug.Log("check if weapons are equal: " + (this.ID == wep.ID).ToString());
+		return (this.ID == wep.ID);
+	}
+	//something for evocations, perhaps?
 }

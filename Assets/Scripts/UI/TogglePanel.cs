@@ -53,7 +53,6 @@ public class TogglePanel : MonoBehaviour {
 
 	public void SetValue(int i){
 		ButtonClicked (i - 1);
-		print ("value set to " + (i).ToString());
 	}
 
 }

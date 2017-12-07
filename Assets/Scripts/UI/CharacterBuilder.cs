@@ -28,6 +28,7 @@ public class CharacterBuilder : MonoBehaviour {
 	public InputField CommittedPool;
 	public Dropdown AnimaValue;
 	public CharacterManager charManager;
+	public GameObject WeaponPanel;
 
 
 	void Awake(){
@@ -296,7 +297,20 @@ public class CharacterBuilder : MonoBehaviour {
 		PersonalPoolCurrent.text = character.PersonalMotes.ToString ();
 		PeripheralPoolCurrent.text = character.PeripheralMotes.ToString();
 		CommittedPool.text = character.CommittedMotes.ToString();
-
+		GameObject weapon = Resources.Load<GameObject> ("Prefabs/UI/Weapon");
+		for (int i = 0; i < 5; i++) {
+			GameObject newWeapon = Instantiate<GameObject> (weapon);
+			newWeapon.GetComponent<WeaponUI> ().charManager = charManager;
+			if (character.GearList.Weapons.Count > i) {
+				newWeapon.GetComponent<WeaponUI>().weapon = character.GearList.Weapons [i];
+				newWeapon.transform.SetParent (WeaponPanel.transform);
+				newWeapon.GetComponent<WeaponUI> ().LoadWeapon();
+				//load the weapon into a ui component and make it
+			}else{
+				newWeapon.transform.SetParent (WeaponPanel.transform);
+				//load a default blank weapon
+			}
+		}
 	}
 		
 	public void CharmTest(){

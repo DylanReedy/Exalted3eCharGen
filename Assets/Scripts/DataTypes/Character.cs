@@ -19,6 +19,7 @@ public class Character {
 	public int PersonalMotes, PeripheralMotes, CommittedMotes;
 	public int Limit;
 	public int AnimaLevel;
+	public GearList GearList = new GearList();
 
 	public Character(){
 
