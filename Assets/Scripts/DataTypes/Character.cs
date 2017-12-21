@@ -20,6 +20,7 @@ public class Character {
 	public int Limit;
 	public int AnimaLevel;
 	public GearList GearList = new GearList();
+	public HealthBars Health = new HealthBars();
 
 	public Character(){
 
@@ -37,7 +38,10 @@ public class Character {
 		PersonalMotes = Essence * 3 + 10;
 		PeripheralMotes = Essence * 7 + 26;
 		CommittedMotes = 0;
-
+		Health.Zero = 1;
+		Health.One = 2;
+		Health.Two = 2;
+		Health.Four = 1;
 	}
 
 //	public bool canAddMerit(Merit merit){

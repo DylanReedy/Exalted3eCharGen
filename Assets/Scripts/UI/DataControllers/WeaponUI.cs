@@ -31,6 +31,9 @@ public class WeaponUI : MonoBehaviour {
 		if (!charManager.character.GearList.Weapons.Contains (weapon)) {
 			print ("weapon added to gear list");
 			charManager.character.GearList.Weapons.Add (weapon);
+		} else {
+			int i = charManager.character.GearList.Weapons.IndexOf (weapon);
+			charManager.character.GearList.Weapons [i] = weapon;		
 		}
 	}
 

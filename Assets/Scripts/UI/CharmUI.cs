@@ -2,14 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System.IO;
 
 public class CharmUI : MonoBehaviour {
 
 	public Text CharmName;
-	public Text CharmSource;
-	public Text CharmDescription;
+	public Image[] EssenceReqs = new Image[5];
+	public Image[] SkillReqs = new Image[5];
 	public GameObject ExtraInfo;
-	public Text ExtraInfoText;
+	public Image lineImage;
 	public Charm charm;
 
 	public void ExtraInfoButton(){
@@ -20,12 +21,35 @@ public class CharmUI : MonoBehaviour {
 		}
 	}
 
-	public void LoadCharm(Charm charm){
-//		this.charm = charm;
-//		CharmName.text = charm.Name;
-//		CharmSource.text = charm.Source;
-//		CharmDescription.text = charm.ShortDescription;
-//		ExtraInfoText.text = charm.FullDescription;
+	public void Load(Charm charm){
+		this.charm = charm;
+		LoadReqs ();
+		CharmName.text = charm.Name;
 	}
 
+	public void LoadReqs(){
+		for (int i = 0; i < EssenceReqs.Length; i++) {
+			if (i < charm.MinEssence) {
+				EssenceReqs [i].sprite = Resources.Load<Sprite> ("Images/yellowcircle");
+			} else {
+				EssenceReqs [i].sprite = Resources.Load<Sprite> ("Images/emptycircle");
+			}
+		}
+		for (int i = 0; i < SkillReqs.Length; i++) {
+			if (i < charm.MinAbility) {
+				SkillReqs [i].sprite = Resources.Load<Sprite> ("Images/redcircle");
+			} else {
+				SkillReqs [i].sprite = Resources.Load<Sprite> ("Images/emptycircle");
+			}
+		}
+	}
+
+	void Awake(){
+		LoadReqs ();
+		Test ();
+	}
+
+	void Test(){
+	}
+		
 }

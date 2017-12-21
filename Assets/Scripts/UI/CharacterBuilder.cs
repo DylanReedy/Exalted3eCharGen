@@ -29,6 +29,8 @@ public class CharacterBuilder : MonoBehaviour {
 	public Dropdown AnimaValue;
 	public CharacterManager charManager;
 	public GameObject WeaponPanel;
+	public GameObject ArmorPanel;
+	public GameObject HealthPanel;
 
 
 	void Awake(){
@@ -297,6 +299,8 @@ public class CharacterBuilder : MonoBehaviour {
 		PersonalPoolCurrent.text = character.PersonalMotes.ToString ();
 		PeripheralPoolCurrent.text = character.PeripheralMotes.ToString();
 		CommittedPool.text = character.CommittedMotes.ToString();
+
+		//load saved weapons
 		GameObject weapon = Resources.Load<GameObject> ("Prefabs/UI/Weapon");
 		for (int i = 0; i < 5; i++) {
 			GameObject newWeapon = Instantiate<GameObject> (weapon);
@@ -311,6 +315,41 @@ public class CharacterBuilder : MonoBehaviour {
 				//load a default blank weapon
 			}
 		}
+
+		//load saved armors
+		GameObject armor = Resources.Load<GameObject> ("Prefabs/UI/Armor");
+		for (int i = 0; i < 2; i++) {
+			GameObject newArmor= Instantiate<GameObject> (armor);
+			newArmor.GetComponent<ArmorUI> ().charManager = charManager;
+			if (character.GearList.Armors.Count > i) {
+				newArmor.GetComponent<ArmorUI>().armor= character.GearList.Armors[i];
+				newArmor.transform.SetParent (ArmorPanel.transform);
+				newArmor.GetComponent<ArmorUI> ().LoadArmor();
+				//load the armor into a ui component and make it
+			}else{
+				newArmor.transform.SetParent (ArmorPanel.transform);
+				//load a default blank armor
+			}
+		}
+
+		//load health levels
+		for (int i = 0; i < character.Health.Zero; i++) {
+			HealthPanel.GetComponent<HealthBoxes> ().AddLevel ("zero");
+		}
+		for (int i = 0; i < character.Health.One; i++) {
+			HealthPanel.GetComponent<HealthBoxes> ().AddLevel ("one");
+		}
+		for (int i = 0; i < character.Health.Two; i++) {
+			HealthPanel.GetComponent<HealthBoxes> ().AddLevel ("two");
+		}
+		for (int i = 0; i < character.Health.Four; i++) {
+			HealthPanel.GetComponent<HealthBoxes> ().AddLevel ("four");
+		}
+		for (int i = 0; i < character.Health.Inc; i++) {
+			HealthPanel.GetComponent<HealthBoxes> ().AddLevel ("inc");
+		}
+
+
 	}
 		
 	public void CharmTest(){

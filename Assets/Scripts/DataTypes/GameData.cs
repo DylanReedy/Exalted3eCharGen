@@ -152,7 +152,7 @@ public class MeritContainer{
 }
 
 [Serializable]
-public struct Charm{
+public class Charm{
 	public string Name;
 	public string Book;
 	public string Page;
@@ -165,11 +165,26 @@ public struct Charm{
 	public string Duration;
 	public string Prerequisites;
 	public string Description;
+	public Node Node;
+	public List<Node> Children = new List<Node>();
+}
+
+[Serializable]
+public struct Node{
+	public int x;
+	public int y;
+
+	public Node(int x, int y){
+		this.x = x;
+		this.y = y;
+	}
 }
 	
 [Serializable]
 public struct CharmContainer{
 	public List<Charm> Charms;
+	public int width;
+	public int height;
 }
 
 [Serializable]
@@ -191,18 +206,15 @@ public class SavedCharacters{
 [Serializable]
 public class GearList{
 	public List<Weapon> Weapons = new List<Weapon>();
+	public List<Armor> Armors = new List<Armor>();
 }
 
 [Serializable]
 public class Weapon{
 
 	public Weapon(){
-		Debug.Log ("b id: " + ID);
-		Debug.Log ("b hash: " + WeaponHash);
 		Interlocked.Increment (ref WeaponHash);
 		ID = Weapon.WeaponHash;
-		Debug.Log ("a id: " + ID);
-		Debug.Log ("a hash: " + WeaponHash);
 	}
 
 	public string Name;
@@ -219,8 +231,41 @@ public class Weapon{
 	public override bool Equals (object obj)
 	{
 		Weapon wep = (Weapon)obj;
-		Debug.Log("check if weapons are equal: " + (this.ID == wep.ID).ToString());
 		return (this.ID == wep.ID);
 	}
 	//something for evocations, perhaps?
+}
+
+[Serializable]
+public class Armor{
+
+	public Armor(){
+		Interlocked.Increment (ref ArmorHash);
+		ID = Weapon.WeaponHash;
+	}
+
+	public string Name;
+	public string Soak;
+	public string Hardness;
+	public string Mobility;
+	public string Tags;
+	public string Description;
+	public int ID;
+	public static int ArmorHash;
+
+	public override bool Equals (object obj)
+	{
+		Armor arm = (Armor)obj;
+		return (this.ID == arm.ID);
+	}
+	//something for evocations, perhaps?
+}
+
+[Serializable]
+public class HealthBars{
+	public int Zero;
+	public int One;
+	public int Two;
+	public int Four;
+	public readonly int Inc = 1;
 }
