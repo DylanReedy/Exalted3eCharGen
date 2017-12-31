@@ -12,7 +12,7 @@ public class PlayManager : MonoBehaviour {
 	public static PlayManager Instance;
 	public GameObject Background;
 
-	public CharmContainer charms;
+	public CharmCascade charms;
 
 	void Awake(){
 		if (Instance == null) {

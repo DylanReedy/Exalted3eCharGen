@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using System;
 using System.IO;
+using UnityEngine.UI;
 
 
 public class ScreenManager : MonoBehaviour {
@@ -11,6 +12,7 @@ public class ScreenManager : MonoBehaviour {
 	public GameObject StartPanel;
 	public GameObject OverviewPanel;
 	public GameObject LoadButtonPanel;
+	public Canvas GameCanvas;
 	public CharacterManager charManager;
 	public CharacterBuilder charBuilder;
 

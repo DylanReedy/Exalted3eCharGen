@@ -10,7 +10,10 @@ public class CharacterBuilder : MonoBehaviour {
 	public Dropdown CasteDropdown;
 	public Dropdown SupernalDropdown;
 	public Dropdown MeritDropdown;
+	public Dropdown AnimaDropdown;
 	public InputField CharacterName;
+	public InputField AnimaBanner;
+	public InputField LimitBreak;
 	public Image CasteColor;
 	public TogglePanel[] AttributePanels = new TogglePanel[Enum.GetValues(typeof(AttributeName)).Length];
 	public TogglePanel[] AbilityPanels = new TogglePanel[Enum.GetValues(typeof(AbilityName)).Length];
@@ -20,13 +23,12 @@ public class CharacterBuilder : MonoBehaviour {
     public GameObject MeritPanel;
 	public Dictionary<Merit,GameObject> MeritObjects = new Dictionary<Merit,GameObject>();
 	public InputPopup MeritInput;
-	public CharmContainer Charms;
+	public CharmCascade Charms;
 	public Text PersonalPoolMax;
 	public Text PeripheralPoolMax;
 	public InputField PersonalPoolCurrent;
 	public InputField PeripheralPoolCurrent;
 	public InputField CommittedPool;
-	public Dropdown AnimaValue;
 	public CharacterManager charManager;
 	public GameObject WeaponPanel;
 	public GameObject ArmorPanel;
@@ -108,7 +110,7 @@ public class CharacterBuilder : MonoBehaviour {
 		CasteColor.color = color;
 		InitializeSupernal ();
 	}
-
+		
 //    public void AddMerit() {
 //		MeritInput.gameObject.SetActive(true);
 //		Merit merit = Merit.MeritLookup [MeritDropdown.captionText.text];
@@ -164,8 +166,20 @@ public class CharacterBuilder : MonoBehaviour {
 //	}
 
 	void InitializeAnimaDropdown(){
-		AnimaValue.onValueChanged.AddListener (delegate {
-			charManager.character.AnimaLevel = AnimaValue.value;
+		AnimaDropdown.onValueChanged.AddListener (delegate {
+			charManager.character.AnimaLevel = AnimaDropdown.value;
+		});
+	}
+
+	void InitializeLimitBreak(){
+		LimitBreak.onValueChange.AddListener (delegate {
+			charManager.character.LimitBreak = LimitBreak.text;
+		});
+	}
+
+	void InitializeAnimaBanner(){
+		AnimaBanner.onValueChanged.AddListener (delegate {
+			charManager.character.AnimaBanner = AnimaBanner.text;
 		});
 	}
 
@@ -232,6 +246,8 @@ public class CharacterBuilder : MonoBehaviour {
 		InitializeEssenceButtons ();
 		InitializeLimitButtons ();
 		InitializeAnimaDropdown ();
+		InitializeAnimaBanner ();
+		InitializeLimitBreak ();
 		print ("interface initialized");
 	}
 
@@ -292,6 +308,12 @@ public class CharacterBuilder : MonoBehaviour {
 		SupernalDropdown.value = character.SupernalAbility;
 		SupernalDropdown.RefreshShownValue ();
 
+		AnimaDropdown.value = character.AnimaLevel;
+		AnimaDropdown.RefreshShownValue ();
+		AnimaBanner.text = character.AnimaBanner;
+
+
+
 		int personal = ((character.Essence * 3) + 10);
 		int peripheral = ((character.Essence * 7) + 26);
 		PersonalPoolMax.text = "/ " + personal.ToString();
@@ -299,6 +321,7 @@ public class CharacterBuilder : MonoBehaviour {
 		PersonalPoolCurrent.text = character.PersonalMotes.ToString ();
 		PeripheralPoolCurrent.text = character.PeripheralMotes.ToString();
 		CommittedPool.text = character.CommittedMotes.ToString();
+		LimitBreak.text = character.LimitBreak;
 
 		//load saved weapons
 		GameObject weapon = Resources.Load<GameObject> ("Prefabs/UI/Weapon");

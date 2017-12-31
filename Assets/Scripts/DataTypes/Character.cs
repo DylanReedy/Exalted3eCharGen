@@ -18,7 +18,9 @@ public class Character {
     public int Essence;
 	public int PersonalMotes, PeripheralMotes, CommittedMotes;
 	public int Limit;
+	public string LimitBreak;
 	public int AnimaLevel;
+	public string AnimaBanner;
 	public GearList GearList = new GearList();
 	public HealthBars Health = new HealthBars();
 

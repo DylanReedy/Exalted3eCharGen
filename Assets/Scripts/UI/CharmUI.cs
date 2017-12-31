@@ -12,6 +12,7 @@ public class CharmUI : MonoBehaviour {
 	public GameObject ExtraInfo;
 	public Image lineImage;
 	public Charm charm;
+	public Button charmButton;
 
 	public void ExtraInfoButton(){
 		if (ExtraInfo.activeSelf) {
@@ -47,6 +48,10 @@ public class CharmUI : MonoBehaviour {
 	void Awake(){
 		LoadReqs ();
 		Test ();
+		charmButton = gameObject.AddComponent<Button> ();
+		charmButton.onClick.AddListener (delegate {
+			print (charm.Name);
+		});
 	}
 
 	void Test(){

@@ -24,14 +24,14 @@ public static class Utils {
 //		return data;
 //	}
 
-	public static CharmContainer LoadCharms(){
+	public static CharmCascade LoadCharms(){
 
 //			string testChar = File.ReadAllText("erza");
 //			character = JsonUtility.FromJson<Character> (testChar);
 //			print ("erza loaded...");
 		string jsonText = File.ReadAllText("Assets/Resources/Data/Charms.txt");
 		jsonText = " { \"Charms\": " + jsonText + "}";
-		CharmContainer data = JsonUtility.FromJson<CharmContainer>(jsonText);
+		CharmCascade data = JsonUtility.FromJson<CharmCascade>(jsonText);
 		return data;	
 	}
 

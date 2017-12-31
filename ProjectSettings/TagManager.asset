@@ -17,6 +17,8 @@ TagManager:
   - Attribute_Toggle_5
   - MeritObject1
   - MeritObject2
+  - CharmLayer
+  - EdgeLayer
   layers:
   - Default
   - TransparentFX

@@ -86,6 +86,13 @@ public static class Caste{
 	public const string ECLIPSE = "Eclipse";
 }
 
+public static class Anima{
+	public const string DIM = "Dim";
+	public const string GLOWING = "Glowing";
+	public const string BURNING = "Burning";
+	public const string ICONIC = "Bonfire/Iconic";
+}
+
 public struct CasteAttributes{
 	public static Dictionary<string,int[]> AttributeLookup = new Dictionary<string, int[]>(){
 		{Caste.DAWN,new int[]{(int)AbilityName.Archery,(int)AbilityName.Awareness,(int)AbilityName.Brawl,(int)AbilityName.MartialArts,
@@ -166,7 +173,7 @@ public class Charm{
 	public string Prerequisites;
 	public string Description;
 	public Node Node;
-	public List<Node> Children = new List<Node>();
+	public List<Node> Parents = new List<Node>();
 }
 
 [Serializable]
@@ -178,10 +185,16 @@ public struct Node{
 		this.x = x;
 		this.y = y;
 	}
+
+	public override bool Equals (object obj)
+	{
+		Node n = (Node)obj;
+		return (x == n.x && y == n.y);
+	}
 }
 	
 [Serializable]
-public struct CharmContainer{
+public struct CharmCascade{
 	public List<Charm> Charms;
 	public int width;
 	public int height;
@@ -268,4 +281,9 @@ public class HealthBars{
 	public int Two;
 	public int Four;
 	public readonly int Inc = 1;
+}
+
+[Serializable]
+public struct CharmGraph{
+	
 }
