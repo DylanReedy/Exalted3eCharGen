@@ -11,7 +11,7 @@
    "Type": "Supplemental",
    "Keywords": "Uniform",
    "Duration": "Instant",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "With skill and effort, the Exalt guides her arrow to its mark. The Exalt may use this Charm to supplement a withering or decisive attack, reducing the benefits of cover. The defense bonus of heavy and light cover is reduced by one, while characters under no cover suffer a -1 penalty to their normal Defense.In addition, after taking an aim action, the Solar may activate this Charm to strike an opponent in full cover. The Exalt shoots along an arc or angle that perfectly matches her opponent's position. So long as there is some opening where an arrow can get through, Wise Arrow treats a character in full cover as if he merely has +3 Defense.",
    "Node":{"x":3,"y":1},
    "Children":[{"x":3,"y":2},{"x":4,"y":2}]
@@ -91,7 +91,7 @@
    "Type": "Reflexive",
    "Keywords": "None",
    "Duration": "Instant",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "Palming a mote of Essence, the Lawgiver pulls a thorn from her heart and fires it at the breast of her enemy. With this Charm, the Solar may continue firing her bow even when she has run out of arrows. In addition, once per scene, the Exalt may suffuse a phantom or physical arrow with the import of one of her Intimacies. Doing so gives her attack a number of non-Charm bonus dice equal to the Intimacy's strength, but also temporarily numbs her to that Intimacy. She may not use this attack again until she has spent significant effort in restoring or remembering the Intimacy, or in the case of a negative Intimacy, has been reminded of her motivation for her ire.Adamant Arrow Technique: At Essence 3+, the Solar may infuse a single phantom or physical arrow per scene with her enduring Essence. So long as she lives, the arrow cannot be destroyed or pulled from the target. Such arrows can be moved by cutting away the base into which they have landed–a tree can still be cut down, a wall still reduced to rubble–but the arrow will remain inviolate. Only the Solar who fired this arrow, or one blessed with her permission, may remove it from its resting place."
  },
  {
@@ -385,7 +385,7 @@
    "Type": "Reflexive",
    "Keywords": "None",
    "Duration": "One scene",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "The Solar draws Essence through her pores and into her bones, suffusing and lightening her form and steadying her step. For the rest of the scene, she has perfect balance, and can stand or run on things too narrow or weak to support her normally, with no chance of falling or breaking through. She can run on a guy wire, stand on a crumbling parapet, balance on the tip of a pine tree, and perform many similar feats without needing to roll (Dexterity + Athletics)."
  },
  {
@@ -399,7 +399,7 @@
    "Type": "Supplemental",
    "Keywords": "None",
    "Duration": "Instant",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "The Exalt leaps with the speed and grace of a striking hawk. Using this technique, a Solar may automatically leap forward or straight up one range band. A Solar using this Charm can easily leap to the top of a twenty foot wall or cross a Nexus street over rooftops, without having to roll. This Charm counts as the Solar's movement for the turn. If the Solar continues to leap to a different range band each turn, the cost is reduced to one mote after the first activation."
  },
  {
@@ -441,7 +441,7 @@
    "Type": "Supplemental",
    "Keywords": "None",
    "Duration": "Instant",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "Like a flashing bolt, the Exalt streaks toward her goal, trailing streamers of anima. This Charm can be used to enhance a rush action (see p. 197). The Exalt moves with terrific speed–add one automatic success and reroll all 5s and 6s until 5s and 6s fail to appear. Lightning Speed can also be used each interval of a foot race or other test of speed (see p. 189)."
  },
  {
@@ -469,7 +469,7 @@
    "Type": "Simple",
    "Keywords": "None",
    "Duration": "One scene",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "The Solar draws remarkable strength from deep within her core. For every three motes of Essence or Initiative the Exalt spends, her Strength score increases by one. Each dot of increase also raises the base damage of her decisive attacks by one. The Solar's Strength cannot be increased by more than her Essence rating through use of this Charm, and this Charm may not grant her more than double her Strength score. Through use of Increasing Strength Exercise, Solars can reach the Strength minimums required to attempt certain feats of strength (p. 229)."
  },
  {
@@ -819,7 +819,7 @@
    "Type": "Reflexive",
    "Keywords": "None",
    "Duration": "One scene",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "A breath of Essence seals the five senses into a more perfect form. The Solar's senses are heightened and attuned to minute motions and sounds, dim and noisy conditions. She can differentiate between subtle tastes and textures with only the slightest variation. Thus sharpened, it is more difficult for characters to escape her notice, or to deceive her hunting senses. For the rest of the scene, the Exalt's Awareness rolls benefit from double 9s. If the effect of any Unsurpassed (Sense) Discipline applies, reroll 6s until they cease to appear. Use of Sensory Acuity Prana comes without the danger of sensory overload; the Charm helps the Solar manage her senses more effectively."
  },
  {
@@ -1127,7 +1127,7 @@
    "Type": "Reflexive",
    "Keywords": "Dual",
    "Duration": "Instant",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "This Charm allows the Exalt to parry lethal damage with her bare hands. In addition, her bare-handed decisive strike does lethal damage and her withering damage ignores (Essence + Intimacy) soak. The Intimacy in this context can be a Tie (as the Solar strikes a hated enemy or defends a beloved friend) or a Principle (as the Solar exults in the thrill of violence)."
  },
  {
@@ -1155,7 +1155,7 @@
    "Type": "Supplemental",
    "Keywords": "Uniform",
    "Duration": "Instant",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "The Solar strikes her opponent with a fury-enhanced blow. This Charm supplements a physical strike, and adds a number of dice to the damage of a withering or decisive attack equal to the target's current onslaught penalty."
  },
  {
@@ -1197,7 +1197,7 @@
    "Type": "Supplemental",
    "Keywords": "None",
    "Duration": "Instant",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "In a burst of violence, the Solar launches herself at an opponent, seizing him with tremendous force. This Charm supplements a grapple gambit, adding one automatic success to the attack roll, and (Essence or three, whichever is greater) dice to the Initiative roll."
  },
  {
@@ -1253,7 +1253,7 @@
    "Type": "Reflexive",
    "Keywords": "None",
    "Duration": "Instant",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "The Solar's aggression fuels her Essence, quickening her movements, allowing her to blur into combat range of an opponent to make a first strike. This Charm allows the Solar to move a single range band without consuming her movement action, to make an attack regardless of her position in the Initiative order. The attack in this instance must be made the moment the Solar blurs forward, and so this Charm can only be activated at short range. This attack counts as her turn for the round, and doesn't have to be a Brawl attack. If contested by another character using Thunderclap Rush Attack, the better stunt wins. The target of Thunderclap Rush Attack may not use a Clash (p. 202) to defend against the Solar's attack unless he's using a Charm with the Clash keyword.At Brawl 5, Essence 3+, the character may add one Willpower to the cost of this Charm–when she uses it against her opponent, it automatically strips (Essence or 5, whichever is lower) Initiative from her target and awards it to her, before the attack is made.This Charm can be used once per target, per scene, but can be refreshed against a single target by crashing that target."
  },
  {
@@ -1799,7 +1799,7 @@
    "Type": "Simple",
    "Keywords": "None",
    "Duration": "Instant",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "With a cursory examination, the Lawgiver can determine the exact quality of any good offered for sale. She can tell if it is in poor, average, or excellent condition. However, this grants her no knowledge of the market value ofany particular good, nor does it tell her the purpose of"
  },
  {
@@ -1869,7 +1869,7 @@
    "Type": "Reflexive",
    "Keywords": "None",
    "Duration": "One scene",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "The Lawgiver becomes preternaturally adept at navigating through bureaucracies. She can naturally sense who to talk to in order to produce results, who expects or is amenable to bribes, which functionaries are actually useful or friendly and which are officious tyrants abusing their meager sliver of power. The Solar may add her Bureaucracy score to the read intentions actions of any Ability so long as it helps her in producing a desired bureaucratic result, such as obtaining a license, gaining a passport or securing an audience."
  },
  {
@@ -2163,7 +2163,7 @@
    "Type": "Permanent",
    "Keywords": "None",
    "Duration": "Permanent",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "The Solar expands her mind, body, and spirit to encompass the drain of more difficult tasks. This Charm permanently grants two major project slots for each dot of Essence the Solar possesses."
  },
  {
@@ -2191,7 +2191,7 @@
    "Type": "Simple",
    "Keywords": "None",
    "Duration": "Instant",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "The Lawgiver may glean knowledge from her existing mastery and use it as the foundation for new works. Upon evoking Arete-Shifting Prana, roll (Intelligence + [relevant Craft]). For each success, the Solar may temporarily convert dots from one of her known Crafts into a conceptually related Craft ability–for example, changing armoring into weaponsmithing, or shifting leatherworking into tailoring, or tailoring into tapestry-weaving. Conversions where no logical relationship can be established are impossible, such as converting Craft (Cooking) dots into Craft (Tailoring). These converted dots remain useable for the duration of one basic or major project; they cannot be used to support any higher form of crafting project."
  },
  {
@@ -2429,7 +2429,7 @@
    "Type": "Permanent",
    "Keywords": "None",
    "Duration": "Permanent",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "The Solar's efforts fleet and flash before her eyes, bringing her closer to an ineffable truth. For each 10 on a Craft roll made without using the Craft Excellency, the Exalt earns a silver point, to a limit of (Essence *2) points. This Charm may be repurchased, increasing the cap to (Essence * 3)."
  },
  {
@@ -2471,7 +2471,7 @@
    "Type": "Simple",
    "Keywords": "Mute",
    "Duration": "One task",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "A Solar who has mastered this Charm can work directly with her chosen material, shaping it with hands, breath, and voice. Without the need for tools or a workshop, the Exalt can start basic and major projects as soon as she has the proper ingredients, and can complete such works with blazing speed, often in just minutes or seconds. Using Craftsman Needs No Tools does allow for the Solar to gain craft point bonuses from her handiwork, and can be used equally well in both building and repair projects. Additionally, if the Solar uses tools to assist her work, the cost of the Charm is reduced by two motes. This Charm does not meaningfully speed the completion of superior or legendary projects."
  },
  {
@@ -2583,7 +2583,7 @@
    "Type": "Simple",
    "Keywords": "None",
    "Duration": "Instant",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "Crack-Mending Technique depicts a Lawgiver whose talent and touch is such that she can repair even impossibly destroyed things. This Charm can't restore things that were completely unmade (for example, by powerful sorcery, digestion in a behemoth's gullet, or immersion in molten rock) but it can remake extremely damaged things like shattered crystal, burnt paper, splintered wood and twisted metal. As the Solar works with the remains of a broken or destroyed object, she may slowly piece it together with word, touch, and Essence over the course of (10 - Essence) hours. If used while under the effect of Craftsman Needs No Tools, this time is reduced to minutes or seconds, and eliminates both the need for tools and in many cases for materials. This Charm can restore magical objects but not metaphorical concepts: it cannot mend a broken heart, nor can it put the magic back into a First Age construct whose magic has fled or faded away. This Charm may lower the difficulty of repairing Artifacts that are fragmented or shattered, while also making such a repair possible, but otherwise does not remove the material requirements or affect the goal number."
  },
  {
@@ -2723,7 +2723,7 @@
    "Type": "Supplemental",
    "Keywords": "None",
    "Duration": "Instant",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "The Solar capitalizes on her own genius. Her hands and Essence flow in tune with the spirit of her craft, turning even the shoddiest materials into sublime masterworks. Craft rolls supplemented by this Charm reroll 10s until 10s fail to appear. At Craft 3+, this Charm may be repurchased, allowing the Exalt to also reroll 6s until 6s failto appear."
  },
  {
@@ -2905,7 +2905,7 @@
    "Type": "Reflexive",
    "Keywords": "Perilous",
    "Duration": "Instant",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "The Exalt draws upon her own momentum to bend and flow with opposing forces. For every two Initiative spent in response to an attack, the player may raise the Exalt's Evasion by one. Reed in the Wind raises the cap on how much the Solar can enhance her Evasion by her Essence. At Dodge 5+, Essence 3+, a successful dodge with Reed in the Wind restores one mote. This bonus may only occur once per round."
  },
  {
@@ -2989,7 +2989,7 @@
    "Type": "Reflexive",
    "Keywords": "None",
    "Duration": "Instant",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "The Exalt slips away from an attack that would have struck her. When using this Charm, the Solar successfully evades an attack roll bearing successes equal to her Evasion. This Charm may be invoked after the attack roll is made."
  },
  {
@@ -3297,7 +3297,7 @@
    "Type": "Permanent",
    "Keywords": "None",
    "Duration": "Permanent",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "Exposure to Wyld energies can cause hallucinations, addiction, insanity, and even terrible mutations. When the Exalt is exposed to such energies, she immediately senses the warping danger that surrounds her. She may then choose to pay five motes, one Willpower to immunize her mind, body, and equipment against the Wyld's twisting power for as long as she keeps motes committed. The Solar's sense of such danger becomes instinctive; she may even activate this Charm while she is asleep or incapacitated. This Charm can also be used to shield the Solar against other environmental effects which would warp her mind or body, such as the twisting choral of the demon prince with voice like crystal facets, or the tainted Essence emanating from the intestines of a malfunctioning First Age manse. But be warned: once the Lawgiver is addicted to the Wyld or mutated by twisting energies, this Charm will not discontinue such effects; it will only prevent her condition from worsening.While Integrity-Protecting Prana protects the Solar and her possessions from being subject to environmental twisting powers, it does not allow her to ignore Wyld phenomena. She can still be torn apart by Wyld-spawned ravenous cyclones of burning teeth and giant hundred-armed mantises. This Charm also does not defend against attacks that might warp her mind or body directly, such as the Wyld-Mind Strike of the Thousand Venoms Mistress, or fiat-level changes to her existence caused by alterations to the Loom of Fate."
  },
  {
@@ -3675,7 +3675,7 @@
    "Type": "Reflexive",
    "Keywords": "None",
    "Duration": "Instant",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "The Lawgiver is attuned to her subconscious, and is preternaturally aware of her surroundings. If the Exalt possesses this Charm, she feels an instinct each time she encounters a scene in which a case scene or profile character action (p. 224) should be used. At this point, the Storyteller informs the player which action is appropriate, and vaguely why–if danger is present, the player is informed that the Solar senses a trap and should use a case scene action; if there is a suspicious character, the player is made aware of that character so that a profile action can be used. This Charm does not entail automatic success at each prospective action. It merely informs the player which action should be performed, and why. As the Solar notices many things the player does not, this Charm can be used to generate reasons for investigations it would otherwise be impossible for a normal character to perceive."
  },
  {
@@ -3913,7 +3913,7 @@
    "Type": "Permanent",
    "Keywords": "None",
    "Duration": "Permanent",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "The Exalt adapts the nature of the iconic criminal, who must one day become a master of her craft. She is a creature of the criminal element; duplicity is in her every word and step. This Charm allows the Solar to invoke and discard a number of special distinctions at her leisure, which allow her to gather information, infiltrate criminal society, and protect her position there.The distinctions are as follows:Familiarity: To a member of a criminal organization, she seems familiar–that is, she can play on a Minor Intimacy to make her target believe she is a criminal with whom to be treated: a member of the organization, a prospect for initiation, etc. Dissonance: Magistrates or other officials seeking to establish her identity suffer a -2 penalty to their Bureaucracy and Investigation actions. Persons who do not know her personally but may have spotted her or seen her hanging around the scene of a crime find her unrecognizable and cannot remember doing so."
  },
  {
@@ -3969,7 +3969,7 @@
    "Type": "Supplemental",
    "Keywords": "None",
    "Duration": "Instant",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "The Exalt's jaded insights give her a talent for seeing through the gambits of her opponents. This Charm supplements a read intentions action against an opponent in a game of chance or strategy, lowering the target's Guile by two. If successful, it tells the Lawgiver how her opponent feels about his current chances. For example, a target who is acting morose but feels exultant is almost certainly bluffing."
  },
  {
@@ -3997,7 +3997,7 @@
    "Type": "Supplemental",
    "Keywords": "Mute",
    "Duration": "Instant",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "With hands quicker than the eye, the Exalt relieves a hapless soul of his material burden. This Charm enhances a normal pickpocketing attempt (see p. 224). Unless contested by magic, this attempt cannot fail; when such a conflict arises, this Charm adds the Solar's Essence in automatic successes. To use this Charm, the Exalt must be close enough to touch her target. In every other way, this Charm follows the rules of a normal pickpocketing attempt. The character may not steal items that are in use or artifacts that have been attuned.Characters using ordinary senses cannot detect this theft with Awareness. Characters with inhuman sensory acuity, such as a spider feeling vibrations in its web, or those using magic, like a Celestial Lion's Intemperate Gaze, suffer a -4 dice penalty to spot the theft. Flawless Pickpocketing Technique is also completely immune to magic that detects Larceny-based actions, unless the user also knows Flawless Pickpocketing Technique."
  },
  {
@@ -4011,7 +4011,7 @@
    "Type": "Reflexive",
    "Keywords": "None",
    "Duration": "Instant",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "The Exalt may open a mundane lock simply by touching it and paying five motes. Alternately, she may challenge a sorcerous lock with her picking tools, paying one mote to gain double 9s and (Essence) automatic successes. This version of the Charm guarantees that she successfully picks the lock even if her roll fails, however, a failure constitutes some unwanted occurrence–perhaps she springs a trap, breaks the lock loudly, snaps her lock-pick, etc."
  },
  {
@@ -4025,7 +4025,7 @@
    "Type": "Simple",
    "Keywords": "None",
    "Duration": "Until the Exalt sleeps",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "Master chameleons, the Solars donned disguises and attended the fetes of the raksha, to hear them confess their nefarious plans for Creation. This Charm recreates a disguise attempt (see p. 224), but allows the Exalt to make a myriad of extraordinary changes to her appearance. She may change her gender, double her age or halve it, alter her height by ten inches in either direction, change her ethnicity, adjust her voice and alter her accent. She can even change her scent. The Solar gains two automatic successes to her disguise attempt, ignores penalties for adapting a different race or gender, and gains double 9s.This disguise cannot be pierced by mundane senses. Nor can it be thwarted by inhuman sensory acuity, such as the nose of a hound or the eye of a hawk. Senses heightened to supernatural levels by Charms such as Keen Sight Discipline have a chance to pierce this deception, but subtract 2 successes from their attempts. Magic which pierces this effect does not reveal the Solar's identity, only that the Exalt is not what she appears to be.Typically Solars used this Charm to hide their identities or to appeal to specific criteria such as “Only women are allowed into the sept.” However, should it be used to impersonate a specific character, magic which pierces this effect will only reveal the apparent body double of the Charm's subject. For example, if the Solar disguises herself as the Scarlet Empress, magic which pierces her disguise will see her as a tall, porcelain-skinned red-haired woman with cunningly accurate makeup, as opposed to what the Solar actually looks like."
  },
  {
@@ -4067,7 +4067,7 @@
    "Type": "Reflexive",
    "Keywords": "None",
    "Duration": "Instant",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "The Solar becomes the light which swallows the shadow. The player rolls (Wits + Larceny), doubles and banks any successes. Banked successes can be reflexively applied to a single Larceny or Stealth action. This effect lasts until the Exalt sleeps, and can be renewed only once per day."
  },
  {
@@ -4305,7 +4305,7 @@
    "Type": "Reflexive",
    "Keywords": "Mute, Written-only",
    "Duration": "Instant",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "A Solar with this technique writes with superhuman speed. The Exalt pens brief social influence or short communiqués with incredible speed–she can write a full-page letter in just seconds, while shorter missives may be constructed almost instantly. She can also quickly copy massive volumes of information. This Charm does not allow her to produce new work longer than a few pages, but she may flawlessly copy a written work of any length as she reads it, writing quickly enough that she may copy a large book in a single day, or prepare a document that would take hours to transcribe in a matter of minutes. The Solar can even perfectly WRITTEN VS. SPOKEN EFFECTSMany Linguistics Charms feature both written and spoken delivery methods. A Linguistics Charm using the written method must be read to be effective, while a spoken delivery need only be heard. In most cases, these types of deliveries use identical rules, typically a roll of ([Social Attribute] + Linguistics). However, because social influence written into a letter, a missive, a book etc. may sometimes require minutes, hours, or days before the target actually receives and reads the writing, the rolls are timed differently.With written social influence, roll (Attribute + Linguistics) the moment the character finishes the composition and record the successes. The character must use any enhancing magic she knows at the moment this roll is required, because once she has finished encoding her work with magic, she may not alter it again without magic specifically for this purpose. After any relevant Intimacies are applied to lower the target's Resolve, the total successes are then compared to the target's Resolve to see if the Charm takes effect."
  },
  {
@@ -4333,7 +4333,7 @@
    "Type": "Simple",
    "Keywords": "Mute, Written-only",
    "Duration": "Instant",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "By carefully injecting allusions, subtle stresses and loaded word choices, the Exalt can imbed a secret message in a document of seemingly innocuous character–a shopping list, a bill of lading or even a quickly dashed note. The Solar must be familiar with the recipient in order for him to see the hidden missive. The hidden message can be no longer (in words) than half the length of the cover document. Magic that can break the Solar's code automatically costs an additional Willpower and must beat a difficulty of the Solar's Linguistics or the highest difficulty of any magical encryption inscribed into the text."
  },
  {
@@ -4347,7 +4347,7 @@
    "Type": "Simple",
    "Keywords": "Mute",
    "Duration": "One idea conveyed",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "The Solar speaks in a roundabout fashion, stressing particular words, inflections and allusions to convey ideas and concepts that may have nothing to do with what she is saying. Only the intended recipients can understand the true meaning of the Solar's words; everyone else just hears what the Solar says on the surface. Thus an Exalt using this Charm could appear to discuss the weather while laying out the details of an assassination plot. This Charm does not confer the ability to communicate across language barriers."
  },
  {
@@ -4361,7 +4361,7 @@
    "Type": "Supplemental",
    "Keywords": "Mute, Written-only",
    "Duration": "Instant",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "Drawing on the Essence of her formidable mind, the Exalt perfects her arguments and sharpens her words, so that her writing is pristine, flawless and precise. This Charm supplements written Linguistics actions with double 9s. ARTISTIC TALENT: LINGUISTICS OR CRAFT?Linguistics is not the “Art” skill, any more than Investigation is the “Sight” skill. Linguistics does entaila very specific artistic skill–in the ability to produce elegant calligraphy, and the ability to produce, translate, or reproduce very specific aesthetics. Language in itself is a representative of such aesthetics:words evolve from pictograms to ideograms, hieroglyphs form and refine into runes that make up"
  },
  {
@@ -4375,7 +4375,7 @@
    "Type": "Reflexive",
    "Keywords": "None",
    "Duration": "Instant",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "Tuning Essence through her language centers, the Exalt reconciles a character's vocal tone, inflection, and gestures into a clear statement of intent. This allows her to accurately interpret statements made in languages she doesn't know. As the Solar's concentration congeals into a moment of perfect clarity, she must evaluate each statement separately. Each activation of this Charm allows her to understand three or four simple sentences or one long, complex sentence. The Solar may also use this Charm to reflexively lower the Guile of a speaker using abstruse language to conceal an issue or artificially inflate the importance of a topic, reducing his Guile by one."
  },
  {
@@ -4403,7 +4403,7 @@
    "Type": "Reflexive",
    "Keywords": "None",
    "Duration": "One scene",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "The Exalt can bind together any two languages she knows into a third language which is intuitively understood by those listeners who understand at least one of the base languages. For four motes, one Willpower, she uses her Essence to fuse two such languages together. For each additional three motes committed, she may fuse an additional language into the strain. A Solar who is gifted with knowledge of many languages can become the unifying voice of nations."
  },
  {
@@ -4417,7 +4417,7 @@
    "Type": "Reflexive",
    "Keywords": "None",
    "Duration": "Instant",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "The Solar's wit is incisive and her mind is canny. By reading a text, she also may read its author. The Solar may invoke this Charm after reading a text but before any social influence is rolled or checked. This allows the Solar to make a ([Wits, Charisma, or Manipulation] + Linguistics) read intentions action that is automatically successful. In that moment, she instantly knows if the writing indicates any of the author's Intimacies, and what those Intimacies are. This may come across as a clear slant or bias in the narrative, or a sense of mood or emotion in the writing which highlights the context of a Tie. This Charm does not reveal the writer's hidden motives behind any work, but it can reveal the absence of any Intimacies in the writing, potentially denoting that the work is a forgery, a copy, or that the author didn't believe what he was writing."
  },
  {
@@ -4711,7 +4711,7 @@
    "Type": "Reflexive",
    "Keywords": "None",
    "Duration": "Varies",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "The Lawgiver is the embodiment of order. With her knowledge and will, chaos is cast asunder. Through use of this Charm, the Exalt may fix her notice on any object, structure, or character (including herself) at the moment it is first affected by the twisting power of the Wyld. The Solar's solid knowledge flows out in a rush of Essence, sluicing away the Wyld's influence. In addition, roll ([the Solar's Mental Attribute] + Lore) with (Essence) non-Charm bonus dice, with a difficulty based on the source of the warping, with the bordermarches being difficulty 3 and the deep Wyld being difficulty 5. Any extra successes on this roll equates to a number of turns (in combat) or minutes (out of combat) for which the target of Wyld-Dispelling Prana becomes immune to further twisting. This Charm may affect a character at up to medium range, and requires multiple uses to protect objects or structures larger than a horse. Special activation rules: After using this Charm once in a scene, the Solar does not need to pay to use it again unless she fails the subsequent Lore roll; she may continue to direct sluicing bolts of Essence at targets for free, until the subsequent Lore roll fails to produce any successes."
  },
  {
@@ -4739,7 +4739,7 @@
    "Type": "Permanent",
    "Keywords": "None",
    "Duration": "Permanent",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "The Solar's mind covers a spectrum of mastered topics. With this Charm, add the Solar's Essence in non-Charm automatic successes to any Lore roll that involves a Lore specialty. In addition, the player may add an additional Lore specialty to her list of Lore topics at the end of each story. The Storyteller may veto any particular topic, in which case the player is allowed to choose another specialty that's more acceptable. Finally, at any point in which the Solar succeeds at a moderately or extremely difficult roll to introduce or challenge a fact (p. 237), the player may request to add a related topic to the Solar's library of known topics. As with all other topics, this is allowable only at the Storyteller's discretion."
  },
  {
@@ -4781,7 +4781,7 @@
    "Type": "Simple",
    "Keywords": "None",
    "Duration": "Instant",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "The Lawgiver fortifies her allies with actions as surely as with words. Upon touching a target and paying three motes, the Solar may transfer up to (Essence * 3) motes from her mote pool to her target's. In addition, once per scene she may roll Wits + Lore, generating a number of motes equal to her successes and awarding them to her target. If the target cannot accept all the motes transferred by Essence-Lending Method he has until his next action to spend them before they dissipate."
  },
  {
@@ -5089,7 +5089,7 @@
    "Type": "Simple",
    "Keywords": "None",
    "Duration": "Instant",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "The ravages of the Wyld and alterations to the Loom of Fate can be reversed by the Solar Exalted. With this Charm, the Solar can shatter the twisting effects of magic and the Wyld, stripping away all such effects and restoring a target to his natural state. If the target does not want to be touched, this can be executed socially with a successful Larceny vs. Awareness contest to clandestinely touch the target, or if the target is a bit more incautious, the Solar may attempt to seduce him in order to deliver the touch. In combat, this Charm is a difficulty 5 gambit made with the Solar's chosen hand-to-hand combat Ability. Fair Folk touched by this Charm are not undone, but experience a temporary transformation lasting (Solar's Essence) scenes, whose severity is based on an Intimacy the Fair Folk has for the Solar, as well as its context. If the Fair Folk has no Intimacy for the Solar, the Storyteller may decide how it is changed. The Fair Folk's player may also veto any changes to their character that makes him virtually unplayable or helpless."
  },
  {
@@ -5369,7 +5369,7 @@
    "Type": "Simple",
    "Keywords": "None",
    "Duration": "Instant",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "Disease and pestilence cannot stand against the Solar Exalted. This Charm represents an hour spent treating a patient for an illness the Exalt has properly diagnosed. Roll the Exalt's (Intelligence + Medicine) against the disease's morbidity (p. 233) and add half the extra successes to the patient's Resistance roll at the next interval. Through this Charm, the Solar can weaken or even cure supernatural maladies such as the Great Contagion. However, the target must remain in bed, and must be bathed, fed, and otherwise given care for the duration of the next interval. These ministrations can be performed by the Solar's assistants. The Exalt may use this Charm to treat her own diseases, though some may require a stunt or special instruments to treat."
  },
  {
@@ -5397,7 +5397,7 @@
    "Type": "Simple",
    "Keywords": "None",
    "Duration": "Instant",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "Through mastery of Essence flows and a keen understanding of the body, the Solar can repair even the most ruinous damage at an incredible pace. The Solar spends fifteen minutes to an hour doctoring the patient, depending on the severity of the wounds. She still requires the normal medicines, bandages, and any tools that mightbe needed for more complex operations, but her results are nonetheless miraculous. Roll (Intelligence + Medicine) with double 9s at the end of the treatment. This is the number of bashing or lethal health levels that will be restored if the patient remains in bed for the rest of the day. In addition, if the Solar's treatment would raise her patient two or more wound levels, she gains a point of Willpower."
  },
  {
@@ -5425,7 +5425,7 @@
    "Type": "Supplemental",
    "Keywords": "None",
    "Duration": "Instant",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "The Solar hones her medical abilities to an unearthly degree. By examining a patient closely and hearing about his symptoms, the Exalt can flawlessly diagnose his illness. This Charm supplements a (Perception + Medicine) attempt to generate a formal diagnosis, preventing the Solar from making any error in her analysis. Note that this Charm does not provide the Exalt with a vast storehouse of medical knowledge, but is based on her Lore and Medicine ratings. If the character encounters an unfamiliar disease, she is able to determine its general type and whether it is magical in nature. Though she may not always know exactly what she is looking at, this Charm guarantees she will never misdiagnose a patient. Lastly, if she encounters a disease which she specializes in treating, or which she has flawlessly diagnosed more than five times in a season, then she gains one mote each time she diagnoses it through the use of this Charm."
  },
  {
@@ -5691,7 +5691,7 @@
    "Type": "Supplemental",
    "Keywords": "Uniform",
    "Duration": "Instant",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "The Exalt channels Essence through skill, honing her accuracy in order to strike true. Her attack gains one automatic success. Additionally, all 1s are rerolled until 1s no longer appear."
  },
  {
@@ -5747,7 +5747,7 @@
    "Type": "Reflexive",
    "Keywords": "None",
    "Duration": "Instant",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "With speed and grace, the Exalt flashes to her own defense. Even when she is beleaguered she strikes away blows with preternatural accuracy. The Solar can ignore all penalties to parry an attack with her full Defense. In addition, any attack she successfully parries with Dipping Swallow Defense grants her one point of Initiative. This Charm cannot by itself remove the penalties from a surprise attack."
  },
  {
@@ -5817,7 +5817,7 @@
    "Type": "Reflexive",
    "Keywords": "None",
    "Duration": "Instant",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "Extending her hand, the Solar may summon her weapon with but a thought. This Charm can reach a weapon within short range. Roll (Wits + Melee) at difficulty 4. On a success, the weapon flashes to hand instantly, without traversing the space between. On a failure, the weapon leaps to the Solar's hand, overcoming friction and gravity to do so. However, it is unable to defeat doors, chains, or other similar obstacles, and even if the path is unobstructed, the weapon does not return until the Solar's next turn. The Exalt cannot use this power to steal weapons, only to call her own weapon to hand."
  },
  {
@@ -6223,7 +6223,7 @@
    "Type": "Reflexive",
    "Keywords": "None",
    "Duration": "One scene",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "The Solar can look through the pall of reality to glimpse the realm of spirits beneath. With this Charm, the Solar can see (but not touch) immaterial spirits."
  },
  {
@@ -6349,7 +6349,7 @@
    "Type": "Simple",
    "Keywords": "None",
    "Duration": "Instant",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "The Solar speaks an unutterable word that pulls one spirit familiar or sorcerously-bound demon into the physical world. This Charm allows a spirit ally to materialize without having to pay a cost or use its own magic."
  },
  {
@@ -6363,7 +6363,7 @@
    "Type": "Reflexive",
    "Keywords": "None",
    "Duration": "One scene",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "The Exalt expands her knowledge of the realm of spirits to all corners of her mind, shunning knowledge that binds her understanding. While this Charm is in effect, the Lawgiver automatically speaks and understands Old Realm, even if it is not a language she has learned, but loses her ability to comprehend any other language. In addition, the Solar also naturally comprehends other spirit languages as old and strange as Old Realm, languages for which there exists little to no record. While this Charm is in effect, the Solar gains (half her Essence, rounded down, minimum one) automatic successes to all Occult rolls and shaping actions."
  },
  {
@@ -6685,7 +6685,7 @@
    "Type": "Permanent",
    "Keywords": "None",
    "Duration": "Permanent",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "The Solar steps through the First Circle and is forever transformed. Upon learning this Charm, the Exalt gains the ability to learn and cast spells from the Terrestrial Circle of sorcery. In addition, the Solar learns one shaping ritual (p. 466) and one Terrestrial spell for free. The spell selected becomes the sorcerer's “control spell,” and may feature in the anima iconography and be referenced in the mechanics of certain Charms."
  },
  {
@@ -6727,7 +6727,7 @@
    "Type": "Supplemental",
    "Keywords": "Mute",
    "Duration": "Instant",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "The Solar's talent is not free or instinctual, but rather the hard-won excellence that comes from a lifetime of practice. This Charm supplements a Performance-based action, granting one automatic success and rerolling1s until 1s fail to appear. This Charm also makes the Exalt's 1s unavailable to magic that might interfere with herperformance."
  },
  {
@@ -6853,7 +6853,7 @@
    "Type": "Supplemental",
    "Keywords": "None",
    "Duration": "One Performance action",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "The return of the Solars is a miracle never before seen. The universe inclines to hear their voices once again. When this Charm supplements a Performance action of any length, characters are inclined to stop and listen. This does not guarantee that the Lawgiver is persuasive in her arguments, but it does guarantee that her audience listens respectfully to her entire performance. Characters may pay one Willpower to leave the performance, but if they wish to interrupt or attack the Lawgiver, they must pay two Willpower, and may only approach her by blending into her demonstration, capping the actions of each affected character by their individual (Charisma + Performance) ratings until one of them is able to successfully stop her act. This Charm does not function after combat has started, but if activated beforehand, it remains active after Join Battle has been rolled, up until the Solar is forced to stop her performance."
  },
  {
@@ -7231,7 +7231,7 @@
    "Type": "Supplemental",
    "Keywords": "None",
    "Duration": "Instant",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "The Solar's passionate appeals can soften even the stoniest of hearts. This Charm supplements an instill or persuade action, granting the Solar one automatic success and additionally granting one non-Charm bonus die for every two points the target's Resolve is boosted by any means. The Solar cannot gain more than three bonus dice in this fashion."
  },
  {
@@ -7245,7 +7245,7 @@
    "Type": "Reflexive",
    "Keywords": "None",
    "Duration": "One scene",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "The Lawgiver embodies virility, magnetism and grace, empowering her forces of persuasion. For five motes, this Charm grants three bonus dice to all forms of social influence from all Abilities except Stealth. In addition, the cost of all social influence Charms are reduced by one mote, to a minimum of one. The seven mote version of this Charm extends the duration to indefinite.370"
  },
  {
@@ -7273,7 +7273,7 @@
    "Type": "Permanent",
    "Keywords": "None",
    "Duration": "Permanent",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "The Lawgiver is a singular and terrifying being, awesome to behold. Learning this Charm grants one bonus die to all Presence rolls and allows the Exalt to reroll (Essence or three, whichever is greater) non-successes on rolls to intimidate. In addition, if the Solar has activated Majestic Radiant Presence, a character must resist an automatic intimidate attempt before he's able to attempt an ambush attack. This effect does not make the Solar aware of her attacker–it simply means that, as her assassin draws a bead on her from the shadows, her fierce look and deadly grace emanates forth to cow him. The intimidate action may only be supported by Charms that are ongoing or otherwise can be used unconsciously."
  },
  {
@@ -7567,7 +7567,7 @@
    "Type": "Reflexive",
    "Keywords": "Dual",
    "Duration": "One tick",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "A child cannot cleave a tree with a dull knife, nor can a foe hope to strike down the Solar with his petty blade. Against a withering or decisive attack, this Charm reduces raw damage by two. Against a decisive attack it also grants the Exalt four hardness. Note that the hardness bonus cannot be applied during crash."
  },
  {
@@ -7609,7 +7609,7 @@
    "Type": "Permanent",
    "Keywords": "Stackable",
    "Duration": "Permanent",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "The bodies of the Exalted are much more durable than those of mere mortals. To help simulate this, an Exalt may buy extra health levels with this Charm. The purchasing choices are based on the character's Stamina rating: At Stamina 1 and 2: One -1 and one -2 health level.3 and 4: One -1 and two -2 health levels.5: One -0, one -1, and one -2 health level. The Solar may purchase Ox-Body Technique (Resistance) times. If she increases her Stamina after purchasing Ox-Body Technique, her health levels automatically change to reflect the new rating."
  },
  {
@@ -7651,7 +7651,7 @@
    "Type": "Simple",
    "Keywords": "None",
    "Duration": "Instant",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "Through the practiced motions of a master, the Lawgiver dons her armor with supernatural speed. With this Charm, it takes a character ([armor's mobility penalty] + 1) turns to don or remove a suit of armor."
  },
  {
@@ -7679,7 +7679,7 @@
    "Type": "Reflexive",
    "Keywords": "None",
    "Duration": "One scene",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "The Exalt's metabolism is strengthened by Essence, allowing her to easily endure the effects of toxins. The Solar gains one automatic success and three bonus dice when rolling (Stamina + Resistance) against a toxin's duration (p. 232). The Solar can also use this Charm at the toxin's interval, to reduce or change the anticipated symptoms of a poison or venom. For example, damaged health levels might be converted instead to a dice penalty until the venom runs its course, or poison-induced blindness might be bled out in viscous tears or a gout of sickly black Essence."
  },
  {
@@ -7693,7 +7693,7 @@
    "Type": "Reflexive",
    "Keywords": "Perilous, Withering-only",
    "Duration": "Instant",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "The Exalt is resistant to all forms of damage, and empowered by them. When an attack makes it through her defense, she may pay one Initiative to draw Essence from deep within the core of her body. The Exalt gains a number of motes equal to half the damage (round up) of the attack before soak, but may gain no more than (Stamina) motes in a single round. Once the Solar has used this Charm, she may not use it until it has been reset by soaking a withering attack of 10+ raw damage without suffering Initiative loss. At Resistance 5, Essence 3+, the total number of motes the Solar may gain per round increases to (Stamina x2)."
  },
  {
@@ -7931,7 +7931,7 @@
    "Type": "Permanent",
    "Keywords": "None",
    "Duration": "Permanent",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "The Exalt has the talent of a veteran equestrian, knowing a handful of ancient and proven techniques to control, console, and sustain her mount through the most arduous circumstances. Purchasing this Charm provides the Solar with three of the listed techniques, and the player may work with the Storyteller to expand the techniques available through this Charm. Additional techniques can be purchased for 2xp or a single bonus point.Harmony of Spirits Style: The Lawgiver can spend one mote reflexively to stop herself from falling off a mount. The Exalt can activate this effect when she is asleep, unconscious or otherwise incapacitated, and will not fall off the mount from being asleep or otherwise unconscious during ordinary travel. Against any attack which might knock her from her mount, she gains +1 Defense.Horse-Summoning Whistle: The Lawgiver can spend one mote reflexively to call a loyal mount to her side. The mount makes its way to her as circumstances best allow. Master Horseman's Eye: The Solar can spend one mote reflexively when evaluating a mount to perfectly recognize its strengths and weaknesses."
  },
  {
@@ -8001,7 +8001,7 @@
    "Type": "Supplemental",
    "Keywords": "None",
    "Duration": "Instant",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "Drawn steadily to the pulse of battle, the Lawgiver and her mount's heart beat as one. Normally, if a rider wishes to let her mount attack, it uses up her attack action for the turn. With this Charm, activated when the player rolls Join Battle, the Exalt's mount gains an Initiative track with a starting value equal to her own, and may make attacks on its own turn. In addition, when the Solar commands her mount to perform a Ride-based movement action, it no longer uses up the Exalt's movement action for the turn."
  },
  {
@@ -8435,7 +8435,7 @@
    "Type": "Permanent",
    "Keywords": "None",
    "Duration": "Permanent",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "The Solar is the consummate mariner, seasoned by hardships, tried by adversity and proven true. This Charm gives the Exalt the following advantages: The Solar's expertise often saves the ship. Reroll any 6s in the result of a Sail roll until 6s no longer appear.  She is inured to supernatural horror. Fear effects caused by monsters, behemoths, demons, Yozis, and other existentially terrifying beings have less of an effect. Add half the Exalt's Sail (rounded up) to her Resolve against such influence. If she fails a balance check on land or sea, she still falls down, but then she immediately falls up, landing on her feet. In addition, she can never fall from a ship. Even the most stumble-footed bastard will find a way to keep from going overboard."
  },
  {
@@ -8491,7 +8491,7 @@
    "Type": "Simple",
    "Keywords": "None",
    "Duration": "Instant",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "The Essence of a ship knows its master. This Charm claims a ship. If it was not owned by one of the Exalted, the ship disregards its former master. Those who do not bear the Exalt's remit suffer a -1 penalty to all actions taken on the Solar's ship until she has formally welcomed them aboard. The Exalt may renounce her welcome at any time, restoring this penalty at her pleasure. In addition, if the Lawgiver's positive intimacy toward the ship achieves Major or Defining status, the Exalt may draw up to five motes from her bond with the ship, once per day, but she must be shipboard to do so. Drawing motes from more thanone ship or familiar in a day causes all motes past five to dissipate at the end of the round."
  },
  {
@@ -8533,7 +8533,7 @@
    "Type": "Reflexive",
    "Keywords": "None",
    "Duration": "Instant",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "Talents honed by lifetimes of effort and sacrifice, the Exalt channels her experience into perfected motions of hand and sail, cunning naval attack plans, and decisive marine EXAMPLE HAZARDThe Mirror Court is a maze of mirrors left behind by the Wyld's retreat. Ships that sail into the Mirror Court are almost inevitably lost forever. Each round of sailing through the Mirror Court is made at difficulty 5. Each time the player fails a roll, the ship's crew–possibly disoriented by hundreds of reflections–steers into one of the mirrors, causing the ship to impact with its reflection exactly as if having been struck with the ram maneuver on page 245. Other hazards exist in the Mirror Court. Safe Bearing Technique vastly reduces the threat of these and any other hazards the Solar has bested."
  },
  {
@@ -8981,7 +8981,7 @@
    "Type": "Reflexive",
    "Keywords": "None",
    "Duration": "One scene",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "The Solar attunes herself to the patterns of social interaction, allowing Essence to guide her responses. While this Charm is active, the Exalt adapts to the expectations of a host culture, and is able to instinctively and reflexively follow its customs, behaving appropriately for the situation at hand. This Charm does not grant the Exalt perfect understanding of a society, but covers greetings, eating and gift customs, and flirtation mores. This Charm eliminates all penalties incurred by unfamiliarity with cultural expectations and group dynamics, and prevents a character from committing any major faux pas. In addition, those who hold positive Intimacies for the culture the Solar has attuned herself to gain a temporary positive Minor Tie of respect or admiration for the Solar, while those who hold negative Intimacies for foreigners or outsiders have that Intimacy temporarily lowered by one level of intensity."
  },
  {
@@ -8995,7 +8995,7 @@
    "Type": "Supplemental",
    "Keywords": "Mute",
    "Duration": "Instant",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "This Charm supplements a read intentions action (p. 218), applying the double 9s rule to the Solar's roll. In addition, the Exalt may substitute Wits for Perception when sheis reading the intentions of a person with whom she is speaking. A Socialize 4+ repurchase enhances this Charm's performance. When the Solar discerns the intentions of her target, the player may speculate on the existence of one of the target's related Intimacies. If the player is correct, the Solar becomes aware of that Intimacy as per Cunning Insight Technique."
  },
  {
@@ -9051,7 +9051,7 @@
    "Type": "Reflexive",
    "Keywords": "Mute",
    "Duration": "Instant",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "The Solar flenses herself of emotion and expression, shedding her façade to become inscrutable. The Solar may reflexively raise her Guile by one point. At Essence 2+, the Solar may pay two motes for two points ofGuile."
  },
  {
@@ -9625,7 +9625,7 @@
    "Type": "Reflexive",
    "Keywords": "None",
    "Duration": "Instant",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "The Lawgiver's stealth technique is honed until it's flawless. Perfect Shadow Stillness allows a reroll of any Stealth-based action, preserving the 10s from those results and rerolling the remaining dice. At Stealth 5, succeeding at a stealth attempt with this Charm awards the Solar one point of temporary Willpower."
  },
  {
@@ -9653,7 +9653,7 @@
    "Type": "Simple",
    "Keywords": "None",
    "Duration": "One scene",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "The Lawgiver evades detection by hiding in plain sight. A Solar with this Charm is able to drift unnoticed through crowds or alone. This Charm models her talent for blending in and remaining unobtrusive. When active, characters cannot notice her unless she takes overt action. Such actions include any display of prowess–leaping from the street to the rooftops, braving a snowstorm in summer clothes, etc. Join Battle always counts as an overt action.This skill does not work against alert guards or those who intend to stop everyone (as with a checkpoint), but can be overcome by magic only if the user has a Minor or greater Intimacy to the Solar or a Major or Defining Intimacy to a cause the Exalt's presence directly threatens."
  },
  {
@@ -9667,7 +9667,7 @@
    "Type": "Supplemental",
    "Keywords": "None",
    "Duration": "Instant",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "The Solar leaps in and out of battle with nigh untraceable speed. The Exalt may use her (Dexterity + Stealth) to Join Battle. Her Join Battle result also acts as an attempt to enter Stealth. If she beats her opponent's Awareness-based Join Battle roll, she is automatically concealed, so long as there is a viable place to hide. If her foe uses a Join Battle roll modified to use any other Ability than Awareness, then he must make an Awareness roll to spot her, suffering a penalty equal to the difference in their Initiative, even if he rolled higher. If he fails the Awareness check, the Solar still vanishes from view."
  },
  {
@@ -9947,7 +9947,7 @@
    "Type": "Simple",
    "Keywords": "None",
    "Duration": "One hour",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "The land gives its strength to the Lawgiver. The Solar may use this Charm to make a ([Charisma or Wits] + Survival) roll against a difficulty assigned by the Storyteller. Each extra success on this roll represents enough food gathered to feed a single person for a day. The fare guaranteed by this Charm is of a meager sort–berries, grubs, nuts, seeds, insects, and small animals–but the Solar has no need of a spear or bow or net to hunt such game. If the Storyteller decides there simply isn't any sort of sustenance in the region, or the player fails the roll, the Solar still finds enough food to feed at least one person. In addition,for every hour the Solar continues to use this Charm,the Solar works toward a climactic encounter with the rawest expression of survivalist skill possible. This guarantees that after repeated use, the Solar will have at least one chance per day to catch a large fish, kill a game animal, trap a large bird or find a fruit-bearing tree. This encounter will happen regardless of Storyteller decree, but is still contingent on a difficulty 6 roll in the worst case scenario."
  },
  {
@@ -9961,7 +9961,7 @@
    "Type": "Reflexive",
    "Keywords": "None",
    "Duration": "One day",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "Through the use of this Charm, the Solar becomes able to survive in even the most hostile conditions without special preparation. This Charm negates all environmental penalties to Survival rolls and eliminates the deleterious effects of exposure to extreme climates. The coldest glacier and the hottest desert are no more deadly to the Solar than the gentlest rolling plain. She ignores inclement weather even when lightly dressed, and does not suffer undue blisters, bug bites or plant poison even when walking barefoot through the jungle. This Charm does not protect the Exalt against environmental damage.In addition, Hardship-Surviving Mendicant Spirit lowers the difficulty to forage and find shelter by 2, to a minimum of 1."
  },
  {
@@ -9975,7 +9975,7 @@
    "Type": "Simple",
    "Keywords": "None",
    "Duration": "One scene",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "Through the use of this Charm, the Exalt can deal with nearly any wild animal. Herbivores and smaller omnivores will not break and run when the Solar approaches, and will even become somewhat docile, allowing the Exalt to pet or handle them. Predators are less susceptible to this Charm, and most will simply let the Solar pass unmolested through their territory. This Charm does not work on sentient animals or familiars, animals that are trained to attack, or animals that are maddened by pain, hunger, or disease."
  },
  {
@@ -10283,7 +10283,7 @@
    "Type": "Supplemental",
    "Keywords": "Withering-only",
    "Duration": "Instant",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "The Solar imbues her chosen weapon with Essence, to feel its every angle and weight as part of her body. Its strike becomes an extension of her will. The Solar's accuracy is calculated as if it was made from close range, regardless of the distance from which she is throwing. If Precision of the Striking Raptor is used at close range, the target's defense is lowered by one. This Charm does not allow the Exalt to strike a target beyond the range of her weaponry."
  },
  {
@@ -10353,7 +10353,7 @@
    "Type": "Supplemental",
    "Keywords": "Uniform",
    "Duration": "Instant",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "The Solar imbues her weapon with Essence, lightening the weapon at the moment of launch and perfecting its course. This Charm extends the range of a thrown weapon to long range. At Thrown 5, Essence 3+, the Solar can use this Charm to make an attack across four range bands."
  },
  {
@@ -10619,7 +10619,7 @@
    "Type": "Supplemental",
    "Keywords": "None",
    "Duration": "Instant",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "Solars descend from the highest war god in Heaven. They speak armies into existence, and their mere presence is a call to arms. This Charm supplements the StrategicManeuver roll (p. 211); as the Lawgiver develops a tactic for victory, fighters of the world are drawn to her call to glory. Ignore the -1 penalty for troops with poor drill, and increase the battle group's effective Size by one upon joining battle."
  },
  {
@@ -10689,7 +10689,7 @@
    "Type": "Supplemental",
    "Keywords": "None",
    "Duration": "Instant",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "The Sun's Chosen speak in tongues of valor and know the ways of war. As one who has studied or waged war for a lifetime, the Solar simply knows what to do in any combat situation. This Charm applies the double 9s rule to all of the Solar's order actions (p. 209). At War 5, Essence 3+, the Exalt may pay six motes, three Initiative to enhance her orders with double 8s."
  },
  {
@@ -10857,7 +10857,7 @@
    "Type": "Reflexive",
    "Keywords": "Mastery, Uniform",
    "Duration": "Instant",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "Ducking and weaving, the snake confounds predators' attempts at violence. Serpentine Evasion adds +1 to the martial artist's Evasion against a single attack. If the attack is made after the martial artist has already taken her turn that round, she may declare this Charm after the attack has already been rolled–enemies who cannot even keep pace with her in battle have no hope of striking her.Mastery: Successfully evading an attack after using this Charm cumulatively lowers the cost of subsequent activations of it by one mote until the martial artist's next turn."
  },
  {
@@ -10871,7 +10871,7 @@
    "Type": "Supplemental",
    "Keywords": "Dual, Mastery",
    "Duration": "Instant",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "The snake claims its victory not by striking hardest, but by striking first. Against an enemy with lower Initiative or who hasn't taken their turn yet this round, Striking Cobra Technique adds the martial artist's Dexterity to the raw damage of a withering attack, or one die to the raw damage of a decisive attack. Against enemies in Initiative Crash, the withering damage boost is added after soak, while the decisive damage boost is converted to an automatic success.Mastery: Add the martial artist's (Essence + 2) to her Initiative when determining if she can use this Charm against an enemy."
  },
  {
@@ -10997,7 +10997,7 @@
    "Type": "Supplemental",
    "Keywords": "Uniform",
    "Duration": "Instant",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "Moving with the speed and agility of a leaping tiger, the martial artist closes the distance to her prey. Crimson Leaping Cat Technique steals a point of Initiative from an enemy upon successfully rushing him. If the martial artist makes an attack against that enemy before the end of the next round, any extra successes on the rush are added as bonus dice to her attack roll."
  },
  {
@@ -11011,7 +11011,7 @@
    "Type": "Supplemental",
    "Keywords": "Mastery, Withering-only",
    "Duration": "Instant",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "Rigorous training, intense discipline, and the suffusing Essence of the tiger gives the martial artist's claw strikes the force to rend flesh and disembowel fallen enemies, making her a bare-handed killer. Striking Fury Claws converts up to (Strength) extra successes that would be added to the raw damage of a withering attack to post-soak dice of damage instead. Against an enemy who took a disengage or withdraw action on his last turn, these post-soak dice are instead converted to successes added to the damage roll.Mastery: Extra successes converted by this Charm add both to the raw damage of the attack and to post-soak damage (or successes against fleeing enemies)."
  },
  {
@@ -11151,7 +11151,7 @@
    "Type": "Reflexive",
    "Keywords": "Mastery, Uniform",
    "Duration": "Instant",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "The clashing steel and ferocious blows of the swordsman's enemies do not disrupt her focus–rather, she welcomes them, gleaning the weaknesses of each foe's fighting style from their offense. After successfully parrying an attack, the stylist can use Gathering Light Concentration to reverse the onslaught penalties inflicted by it. Instead of applying them to her Defense, she applies them to her attacker's Defense until his next turn.Mastery: At Essence 3+, the Solar may spend an extra 3i when activating Gathering Light Concentration to cancel all onslaught penalties she's suffering from, and inflict them on her attacker."
  },
  {
@@ -11165,7 +11165,7 @@
    "Type": "Supplemental",
    "Keywords": "Decisive-only, Mastery",
    "Duration": "Instant",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "Committing fully to a lethal blow, the swordsman cleaves through her enemies with killing speed. Shining Starfall Execution adds (her Dexterity/2, round up) to the raw damage of a decisive attack. If she is at Initiative 15+, she adds her full Dexterity instead. However, if the attack misses, then the stylist adds (Dexterity /2) to the amount of Initiative she loses. Mastery: Shining Starfall Execution also doubles 10s on the damage roll at Initiative 15+."
  },
  {
@@ -11277,7 +11277,7 @@
    "Type": "Supplemental",
    "Keywords": "Dual",
    "Duration": "Instant",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "After taking a moment to icily judge the optimal point to apply force to an opponent, the White Reaper strikes without restraint. When used with a withering attack, Falling Scythe Slash doubles the martial artist's Strength rating for calculating its raw damage. Alternatively, on a decisive attack against an enemy with lower Initiative,it adds the martial artist's (Strength/2, round up) toraw damage."
  },
  {
@@ -11291,7 +11291,7 @@
    "Type": "Reflexive",
    "Keywords": "Mastery, Uniform",
    "Duration": "Instant",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "The White Reaper is most at ease when surrounded by enemies, turning their strength of numbers to her own advantage. The Revolving Crescent Defense cancels all onslaught penalties to the martial artist's Parry against a single attack, instead converting each point of penalty into a +1 bonus to her Parry. Mastery: This Charm's duration is extended until the martial artist's next turn."
  },
  {
@@ -11403,7 +11403,7 @@
    "Type": "Reflexive",
    "Keywords": "Decisive-only, Mastery",
    "Duration": "Instant",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "Students of the Ebon Shadow style fade in and out of sight in combat, emerging as if from nowhere to strike before vanishing back into the shadows. When the martial artist takes a Stealth action in combat, she may use Nothing But Shadows to apply a penalty equal to (higher of 3 or her Essence) to the opposed roll of any enemy with a lower Initiative than her, to a maximum of -5.Alternatively, when the martial artist is hit with a decisive attack, she may use Nothing But Shadows to play dead, slowing her heart rate to nearly nothing. This is treated as an attempt to go to ground by faking death, rather than seeking concealment. The usual penalties apply, but the martial artist applies the benefits of this Charm on all rolls she makes to go to ground for free, and also adds any wound penalties she is suffering as bonus dice on all rolls–the more damage she has taken, the more convincing her false death. Mastery: Every 1 that a non-trivial enemy rolls on his (Perception + Awareness) opposing the supplemented action gives the martial artist a point of Initiative, up to a maximum of (Stealth) points per activation."
  },
  {
@@ -11417,7 +11417,7 @@
    "Type": "Supplemental",
    "Keywords": "Mastery, Withering-only",
    "Duration": "Instant",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "Pinpointing a seam or flaw in an enemy's armor, the martial artist strikes through it with the expert precision ofa trained assassin. Seven Points of Weakness Strike subtracts (the martial artist's Stealth) from her enemy's armored soak. Unexpected attacks double the amount of soak ignored. Mastery: If this Charm reduces an enemy's armored soak to zero against a withering attack, any remaining points of soak reduction are converted to post-soak damage dice."
  },
  {
@@ -11515,7 +11515,7 @@
    "Type": "Supplemental",
    "Keywords": "Mastery, Withering-only",
    "Duration": "Instant",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "Crane stylists do not initiate hostilities–they end them. Empowering Justice Redirection can supplement any attack against an enemy who has attacked the martial artist or a character she is protecting with a defend other action during the current or previous round. It adds one success to the attack roll, and one die to the post-soak damage of the attack. This increases to two successes and two post-soak dice of damage if the provoking attack successfully landed. Mastery: The dice of damage added by this Charm are converted to automatic successes."
  },
  {
@@ -11529,7 +11529,7 @@
    "Type": "Reflexive",
    "Keywords": "Mastery, Uniform",
    "Duration": "Until next turn",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "The sheltering wings of the Crane stylist shield her allies from the aggression of their enemies. Fluttering Cry of Warning adds +2 Parry whenever the martial artist parries an attack directed at an ally protected by one of her defend other actions until her next turn. Additionally, an enemy who overcomes the Crane stylist's Parry and chooses to attack her ward rather than the martial artist must pay a point of Initiative to do so.Mastery: Fluttering Cry of Warning allows the martial artist to take a defend other action reflexively, even if it is not her turn."
  },
  {
@@ -11655,7 +11655,7 @@
    "Type": "Permanent",
    "Keywords": "Mastery",
    "Duration": "Permanent",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "The nightingale is no bird of prey, to swoop down with curved beak and cruel talons. Its greatest virtue is its song–and with that song, the students of Nightingale style give voice to their victory. This Charm allows the martial artist to make kiais, unleashing forceful waves of sound that strike her enemies like physical blows. A kiai has the traits of a mundane light weapon with the bashing and thrown (short) tags, save she rolls its attacks with Martial Arts (Silver-Voiced Nightingale style) rather than Thrown. The martial artist may flurry a kiai attack with Performance-based influence without the usual flurry penalties, as long as the content of the social influence is woven into the lyrics or emotional tenor of her song.Mastery: The martial artist's kiai has the traits of a light artifact weapon."
  },
  {
@@ -11809,7 +11809,7 @@
    "Type": "Supplemental",
    "Keywords": "Dual",
    "Duration": "Instant",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "Drawing in a quick breath, the Righteous Devil tastes the wickedness of a world in need of judgment. As she exhales, pulling down hard on the trigger, she burns that world clean with fire. Blossom of Inevitable Demise applies double 10s on the damage roll of a decisive attack. It can also extend the range of a firewand attack to medium, although doing so still requires an aim action as usual (p. 195)."
  },
  {
@@ -11823,7 +11823,7 @@
    "Type": "Supplemental",
    "Keywords": "Mastery",
    "Duration": "Instant",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "Ebon grains of firedust stream from the stylist's hands as she moves like lightning, sighting and reloading faster than her enemies can blink. When the stylist aims with a firewand, she may also reload it (and/or draw it), without needing to take a separate action. If there are any enemies at close range to her, she must succeed on a (Wits + Martial Arts) roll at difficulty 2 to successfully execute this maneuver. On a failed roll, she successfully loads the weapon, but does not gain the advantages of aiming. Enemies whom she has successfully intimidated or chastised with social actions during that fight do not count for this restriction (even if they spent Willpower to resist). Mastery: Cloud of Ebon Devils can be used to supplement a Join Battle roll, in which case it allows the Righteous Devil to reflexively aim and draw or ready a weapon before any character acts in the fight."
  },
  {
@@ -11837,7 +11837,7 @@
    "Type": "Supplemental",
    "Keywords": "Dual, Mastery",
    "Duration": "Instant",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "Sighting along the flows of Essence that connect her weapon with its mark, the Righteous Devil sends her will down a fine line of possibility, transforming it into inevitability. Kiss of the Sun Concentration adds any dice from aiming to the post-soak damage of a withering attack, or converts them to a single die added to the raw damage of a decisive attack. Disarm gambits, or any other gambit that could benefit from superhuman precision, add the full amount of aim dice to their Initiative roll instead of a single die.Mastery: When used with a decisive attack, the full amount of aim dice are added to the raw damage of he attack. Withering attacks and precision-based gambits convert the aim dice to automatic successes on the damage roll."
  },
  {
@@ -11935,7 +11935,7 @@
    "Type": "Supplemental",
    "Keywords": "Mastery",
    "Duration": "Instant",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "From the very beginning, things start to go wrong. Righteous heroes find themselves cast as vicious bullies when they fight a student of the Black Claw–even when she starts the fight. Open Palm Caress can be used whenever the martial artist rolls Join Battle. As long as at least one enemy received more successes on the roll than the martial artist did, he and his allies are seen as having initiated hostilities, regardless of how the fight actually began. This applies both to any bystanders to the fight and to the enemies themselves, who might suddenly find themselves confused as to why they are attacking the Black Claw stylist. Characters may see through this deception with a reflexive read intentions roll against the martial artist's Guile. The Black Claw stylist gains a single point of Initiative for each opponent or bystander who was fooled by this ruse, up to a maximum of her Manipulation. Mastery: The martial artist's performance is so convincing that if she uses her first turn to make a clinch or decisive attack against an enemy who beat her Join Battle and failed to overcome her Guile, she may pay a point of Willpower to treat that attack as an ambush."
  },
  {
@@ -11949,7 +11949,7 @@
    "Type": "Reflexive",
    "Keywords": "Counterattack, Mastery, Terrestrial, Uniform",
    "Duration": "Instant",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "Every Black Claw student must submit to her sifu. As one whose heart is already conquered, she knows that any greater defeat is impossible. Drawing on this memory of love, the martial artist projects an unmistakable but fragile resolution. Whenever the martial artist successfully defends against an attack, she may use Torn Lotus Defense to make a counterattack with (Manipulation + Presence) to instill her attacker with a positive Tie towards herself, adding a number of dice equal to the attacker's Essence (maximum five). The context of the Tie, be it respect, admiration, or even unexpected love, depends on the circumstances of the situation and may be chosen by the attacking character's player. If the attacker already has a positive Tie towards the martial artist, this influence roll is also treated as a special withering counterattack that deals (Manipulation) points of unsoakable Initiative damage, as the martial artist plays on her enemy's sympathies to throw him off balance and gain the upper hand.Using Torn Lotus Defense while Black Claw Form is active allows the Black Claw stylist to also apply the influence roll against all enemies and bystanders who witnessed the attack, without suffering the usual penalties for targeting multiple characters. Bystanders only face the social influence aspect of the counterattack, and never take withering damage from it.Terrestrial: A Dragon-Blood enjoys no extra benefits from using this Charm while Black Claw Form is active. Mastery: The martial artist may declare this Charm prior to the attack roll, adding +1 to her Defense and then making the influence roll if she suceeds."
  },
  {
@@ -12061,7 +12061,7 @@
    "Type": "Reflexive",
    "Keywords": "Mastery, Uniform",
    "Duration": "Instant",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "The Dreaming Pearl Courtesan dances away from the blows of her enemies without effort, as if her body was nothing more than so many cherry blossoms caught on the wind. Demure Carp Feint adds +1 to the martial artist's Evasion, or adds one success on a roll to disengage. If the martial artist's Appearance is higher than the Resolve of her attacker, or of all enemies she is disengaging from, this increases to +2. Successfully defending against or disengaging from an enemy whose Resolve is beaten by the martial artist's Appearance grants her a point of Initiative, as her provocative elegance and sinuous grace gain her an improved footing. Mastery: When the martial artist gains Initiative with this Charm, her attacker loses a point of Initiative as well. When disengaging, all enemies whose Resolve is beaten lose the point of Initiative (although this does not increase the amount the martial artist receives)."
  },
  {
@@ -12075,7 +12075,7 @@
    "Type": "Supplemental",
    "Keywords": "Dual, Mastery",
    "Duration": "Instant",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "A paper fan, a colorful sash, a pair of chopsticks, a ball gown's train–all of these can be killing weapons in the hands of a student of this style. Elegant Weapon Repertoire adds the accuracy bonus of a weapon to the raw damage of a withering attack made with it, or one die to the raw damage of a decisive attack. Alternatively, this Charm can supplement a ready weapon action to suffuse an accessory, garment, or some similar ornamental object with Essence, allowing the martial artist to wield it as a weapon. For the rest of the scene, it is treated as a mundane light weapon, with tags based on the exact nature of the item, as described below. While several examples are provided for each category, the Storyteller is encouraged to reward creative ideas that fit within the aesthetics of this style.Disarming: The disarming tag applies to garments or accessories that can be used to leverage weapons out of their wielder's grip–primarily sashes or sleeves that have had lead weights sewn into them for this specific purpose (which overrides the usual tag they would receive). These weapons usually also have the bashing and flexible tags."
  },
  {
@@ -12089,7 +12089,7 @@
    "Type": "Reflexive",
    "Keywords": "Mastery",
    "Duration": "One scene",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "An iridescent sheen comes over the martial artist'sgarments as Essence enfolds them, turning silk as strong as steel. Any clothing the martial artist wears while this Charm is active is treated as mortal light armor. This is explicitly compatible with this style, but not with any other styles that forbid armor. In addition, wheneverthe martial artist is hit by an attack, she may spend up to her (Appearance) in motes, adding one point to her armored soak against that attack for each mote spent this way. Mastery: The first time the martial artist uses this Charm to defend against a decisive attack in a fight, she reveals the supernal resilience of her seemingly vulnerable figure, gaining hardness 10 against the attack as well as a surge of three motes that can be spent to add to the armor's soak, or on similar effects, such as many Solar Resistance Charms. These motes vanish at the end of the scene if not spent."
  },
  {
@@ -12187,7 +12187,7 @@
    "Type": "Supplemental",
    "Keywords": "None",
    "Duration": "Instant",
-   "Prerequisites": "None",
+   "Prerequisites": [],
    "Description": "The Exalt grasps a blade in each hand and makes a lightning speed draw–a technique designed for ending a fight before it starts. This Charm supplements a Join Battle roll made with any Ability, adding (Essence or two, whichever is greater) successes to the result, and allowing the Exalt to shift successes from her Initiative pool directly into that of her Offhand Charge. In addition, if her result beats that of all of her opponents, she gains one automatic point of Charge."
  },
  {

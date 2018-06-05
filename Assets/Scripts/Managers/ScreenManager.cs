@@ -12,54 +12,46 @@ public class ScreenManager : MonoBehaviour {
 	public GameObject StartPanel;
 	public GameObject OverviewPanel;
 	public GameObject LoadButtonPanel;
-	public Canvas GameCanvas;
-	public CharacterManager charManager;
-	public CharacterBuilder charBuilder;
-
-	// Use this for initialization
-	void Start () {
-	}
-
+    public GameObject CurrentPanel;
+    public GameObject CharmPanel;
+    [SerializeField]
+    CharacterManager characterManager;
 
 	public void LoadCharacter(){
 		LoadButtonPanel.SetActive (true);
-		string savedChars = null;
-		try{savedChars = File.ReadAllText ("SavedCharacters");}
-		catch{}
+		List<string> savedChars = characterManager.GetSavedCharacters ();
 		if (savedChars != null) {
-			SavedCharacters sc = JsonUtility.FromJson<SavedCharacters> (savedChars);	
-			foreach (string s in sc.Characters) {
+			foreach (string s in savedChars) {
 				GameObject CharSelectButton = Resources.Load<GameObject> ("Prefabs/UI/CharacterChoice");
 				GameObject instance = Instantiate (CharSelectButton);
 				instance.GetComponent<CharacterLoader> ().charName.text = s;
 				instance.GetComponent<CharacterLoader> ().charChoice.onClick.AddListener (delegate {
-					CloseLoadPanel();
-					LoadOverviewPanel(s);
+					characterManager.LoadCharacter (name);
+					LoadOverviewPanel();
 				});
 				instance.transform.SetParent (LoadButtonPanel.transform);
 			}
 		}
 	}
 
+	public void NewCharacter(){
+		LoadOverviewPanel ();
+	}
+		
+	void LoadOverviewPanel(){
+		CloseLoadPanel();
+		OverviewPanel.SetActive (true);
+		StartPanel.SetActive (false);
+		//characterManager.InitializeInterface ();
+		//CharacterBuilder.Instance.ImportCharacter ();
+	}
+
 	void CloseLoadPanel(){
 		LoadButtonPanel.SetActive (false);
 	}
 
-	void LoadOverviewPanel(string name){
-		StartPanel.SetActive (false);
-		OverviewPanel.SetActive (true);
-		charManager.LoadCharacter (name);
-		charBuilder.LoadCharacter ();
-		charBuilder.InitializeInterface ();
-	}
-
-	public void NewCharacter(){
-		StartPanel.SetActive (false);
-		OverviewPanel.SetActive (true);
-		charBuilder.InitializeInterface ();
-		charBuilder.LoadCharacter ();
-		charManager.character = new Character ();
-	}
-
-
+    public void OpenCharmManager() {
+        CurrentPanel.SetActive(false);
+        CharmPanel.SetActive(true);
+    }
 }

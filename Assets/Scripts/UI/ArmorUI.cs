@@ -11,33 +11,34 @@ public class ArmorUI : MonoBehaviour {
 	public InputField MobField;
 	public InputField TagsField;
 	public Armor armor = new Armor();
-	public CharacterManager charManager;
+    [SerializeField]
+    CharacterManager characterManager;
 
 	void Awake(){
 		armor = new Armor ();
 	}
 
 	public void UpdateArmor(){
-		armor.Name = NameField.text;
-		armor.Soak = SoakField.text;
-		armor.Hardness= HardnessField.text;
-		armor.Mobility = MobField.text;
-		armor.Tags = TagsField.text;
-		if (!charManager.character.GearList.Armors.Contains (armor)) {
-			print ("armor added to gear list");
-			charManager.character.GearList.Armors.Add (armor);
-		} else {
-			int i = charManager.character.GearList.Armors.IndexOf (armor);
-			charManager.character.GearList.Armors [i] = armor;
-		}
+		armor.name = NameField.text;
+		armor.soak = SoakField.text;
+		armor.hardness= HardnessField.text;
+		armor.mobility = MobField.text;
+		armor.tags = TagsField.text;
+		//if (!characterManager.character.armors.Contains (armor)) {
+		//	print ("armor added to gear list");
+		//	characterManager.character.armors.Add (armor);
+		//} else {
+		//	int i = characterManager.character.armors.IndexOf (armor);
+		//	characterManager.character.armors [i] = armor;
+		//}
 	}
 
 	public void LoadArmor(){
-		NameField.text = armor.Name;
-		SoakField.text = armor.Soak;
-		HardnessField.text = armor.Hardness;
-		MobField.text = armor.Mobility;
-		TagsField.text = armor.Tags;
+		NameField.text = armor.name;
+		SoakField.text = armor.soak;
+		HardnessField.text = armor.hardness;
+		MobField.text = armor.mobility;
+		TagsField.text = armor.tags;
 	}
 
 

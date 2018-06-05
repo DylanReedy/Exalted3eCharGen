@@ -49,9 +49,6 @@ public class CharmUI : MonoBehaviour {
 		LoadReqs ();
 		Test ();
 		charmButton = gameObject.AddComponent<Button> ();
-		charmButton.onClick.AddListener (delegate {
-			print (charm.Name);
-		});
 	}
 
 	void Test(){

@@ -11,26 +11,13 @@
     "Type": "Reflexive",
     "Keywords": "None",
     "Duration": "One scene",
-    "Prerequisites": "None",
+    "Prerequisites": [],
     "Description": "The Solar draws Essence through her pores and into her bones, suffusing and lightening her form and steadying her step. For the rest of the scene, she has perfect balance, and can stand or run on things too narrow or weak to support her normally, with no chance of falling or breaking through. She can run on a guy wire, stand on a crumbling parapet, balance on the tip of a pine tree, and perform many similar feats without needing to roll (Dexterity + Athletics).",
     "Node": {
       "x": 5,
       "y": 1
     },
-    "Parents": [
-      {
-        "x": 4,
-        "y": 2
-      },
-      {
-        "x": 5,
-        "y": 2
-      },
-      {
-        "x": 6,
-        "y": 2
-      }
-    ]
+    "Parents": []
   },
   {
     "Name": "Monkey Leap Technique",
@@ -43,26 +30,13 @@
     "Type": "Supplemental",
     "Keywords": "None",
     "Duration": "Instant",
-    "Prerequisites": "None",
+    "Prerequisites": [],
     "Description": "The Exalt leaps with the speed and grace of a striking hawk. Using this technique, a Solar may automatically leap forward or straight up one range band. A Solar using this Charm can easily leap to the top of a twenty foot wall or cross a Nexus street over rooftops, without having to roll. This Charm counts as the Solar's movement for the turn. If the Solar continues to leap to a different range band each turn, the cost is reduced to one mote after the first activation.",
     "Node": {
       "x": 7,
       "y": 1
     },
-    "Parents": [
-      {
-        "x": 6,
-        "y": 2
-      },
-      {
-        "x": 7,
-        "y": 2
-      },
-      {
-        "x": 8,
-        "y": 2
-      }
-    ]
+    "Parents": []
   },
   {
     "Name": "Soaring Crane Leap",
@@ -75,7 +49,7 @@
     "Type": "Reflexive",
     "Keywords": "None",
     "Duration": "Instant",
-    "Prerequisites": "Monkey Leap Technique",
+    "Prerequisites": ["Monkey Leap Technique"],
     "Description": "Striking an efficacious pose, the Exalt catches the wind to slow a fall. This allows her to drop down two range bands without taking damage. In order to survive a very long fall with this Charm, the Solar must use it at least once every three bands. The Exalt can also use this Charm to drift long distances through the air, expending her movement action to float forward a single range band even as she continues to fall. With an adequate amount of thrust, the Exalt can glide across long horizontal distances without falling, equaling her initial movement forward. For example, if she were to leap out over a chasm two range bands across with Monkey Leap Technique, she could then activate Soaring Crane Leap to glide across the second range band on her next turn. Appropriate stunts can increase straight-across movement before the Exalt begins to drop.",
     "Node": {
       "x": 7,
@@ -84,7 +58,7 @@
     "Parents": [
       {
         "x": 7,
-        "y": 3
+        "y": 1
       }
     ]
   },
@@ -99,13 +73,22 @@
     "Type": "Reflexive",
     "Keywords": "None",
     "Duration": "Instant",
-    "Prerequisites": "Graceful Crane Stance, Monkey Leap Technique",
+    "Prerequisites": ["Graceful Crane Stance, Monkey Leap Technique"],
     "Description": "Fearless in combat, the Solar leaps over her stunned opponent. At close range, if the Exalt has higher Initiative (before cost) than her foe, she may use this Charm on her turn, rolling Dexterity + Athletics against her opponent's Evasion. If successful, she leaps over her target, creating an opening, and may make a surprise attack (see p. 203) overhead or at their back. This Charm may only be used once per combat, but is reset by landing a decisive attack and building Initiative to 6+.",
     "Node": {
       "x": 6,
       "y": 2
     },
-    "Parents": []
+    "Parents": [
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 7,
+        "y": 1
+      }
+      ]
   },
   {
     "Name": "Lightning Speed",
@@ -118,34 +101,13 @@
     "Type": "Supplemental",
     "Keywords": "None",
     "Duration": "Instant",
-    "Prerequisites": "None",
+    "Prerequisites": [],
     "Description": "Like a flashing bolt, the Exalt streaks toward her goal, trailing streamers of anima. This Charm can be used to enhance a rush action (see p. 197). The Exalt moves with terrific speed–add one automatic success and reroll all 5s and 6s until 5s and 6s fail to appear. Lightning Speed can also be used each interval of a foot race or other test of speed (see p. 189).",
     "Node": {
       "x": 1,
       "y": 3
     },
-    "Parents": [
-      {
-        "x": 1,
-        "y": 2
-      },
-      {
-        "x": 2,
-        "y": 2
-      },
-      {
-        "x": 3,
-        "y": 2
-      },
-      {
-        "x": 4,
-        "y": 2
-      },
-      {
-        "x": 5,
-        "y": 2
-      }
-    ]
+    "Parents": []
   },
   {
     "Name": "Winning Stride Discipline",
@@ -158,7 +120,7 @@
     "Type": "Permanent",
     "Keywords": "None",
     "Duration": "Permanent",
-    "Prerequisites": "Lightning Speed",
+    "Prerequisites": ["Lightning Speed"],
     "Description": "Racing against herself, the Solar exults in leaving her competitors behind. In a test of speed, each interval in which the Solar accrues more successes than her fastest opponent garners a spirit-restoring surge: two motes to be used on Athletics Charms on her next turn, or two Initiative.",
     "Node": {
       "x": 3,
@@ -167,7 +129,7 @@
     "Parents": [
       {
         "x": 3,
-        "y": 3
+        "y": 1
       }
     ]
   },
@@ -182,30 +144,13 @@
     "Type": "Simple",
     "Keywords": "None",
     "Duration": "One scene",
-    "Prerequisites": "None",
+    "Prerequisites": [],
     "Description": "The Solar draws remarkable strength from deep within her core. For every three motes of Essence or Initiative the Exalt spends, her Strength score increases by one. Each dot of increase also raises the base damage of her decisive attacks by one. The Solar's Strength cannot be increased by more than her Essence rating through use of this Charm, and this Charm may not grant her more than double her Strength score. Through use of Increasing Strength Exercise, Solars can reach the Strength minimums required to attempt certain feats of strength (p. 229).",
     "Node": {
       "x": 9,
       "y": 1
     },
-    "Parents": [
-      {
-        "x": 8,
-        "y": 2
-      },
-      {
-        "x": 9,
-        "y": 2
-      },
-      {
-        "x": 10,
-        "y": 2
-      },
-      {
-        "x": 11,
-        "y": 2
-      }
-    ]
+    "Parents": []
   },
   {
     "Name": "Ten Ox Meditation",
@@ -218,7 +163,7 @@
     "Type": "Supplemental",
     "Keywords": "None",
     "Duration": "One feat",
-    "Prerequisites": "Increasing Strength Exercise",
+    "Prerequisites": ["Increasing Strength Exercise"],
     "Description": "The Solar magnifies her physical Essence, increasing her ability to move massive loads. This Charm supplements an attempt to lift or break something, allowing the Solar to attempt an action with a prerequisite beyond her current Strength rating. Pay two motes and roll the Exalt's (Strength + Athletics) as normal, converting each three successes into a dot of Strength as needed, until the Solar meets the prerequisite. This bonus Strength does not enhance her current dice pool, as this momentary surge of might only establishes whether she can succeed with her current dice. Note that she must still have enough successes remaining, after increasing her Strength, to meet the difficulty requirement of the feat.",
     "Node": {
       "x": 6,
@@ -226,8 +171,8 @@
     },
     "Parents": [
       {
-        "x": 6,
-        "y": 4
+        "x": 9,
+        "y": 1
       }
     ]
   },
@@ -248,7 +193,12 @@
       "x": 11,
       "y": 2
     },
-    "Parents": []
+    "Parents": [
+    {
+      "x": 9,
+      "y": 1
+    }
+    ]
   },
   {
     "Name": "Thunderbolt Attack Prana",
@@ -261,13 +211,22 @@
     "Type": "Supplemental",
     "Keywords": "Decisive-only",
     "Duration": "Instant",
-    "Prerequisites": "Increasing Strength Exercise, Monkey Leap Technique",
+    "Prerequisites": ["Increasing Strength Exercise","Monkey Leap Technique"],
     "Description": "The Exalt draws down on the Essence around her, pulling it through her upper body, her lungs, her core and down into her legs, and then explodes skyward, rising in a brilliant, Essence-laden arc. This Charm supplements a non-ranged attack which can be made against aerial targets up to short range, or ground targets at another range band. The Solar leaps at her target, striking with incredible force–damage is doubled after it is rolled. If the Exalt uses this attack to move to another range band, it counts as her moveON TEN OX MEDITATIONFor example, the Solar sees a laden wagon sinking into a sand pit. She has Strength 5, and no time to activate Increasing-Strength Exercise–perhaps someone will die if she does not act instantly. According to the rules on page 229, this feat requires Strength 7, and twelve successes on a (Strength + Athletics) roll. She grabs the hitch, channeling from deep within her reservoirs of might to try to pull it free anyway. The player invokes a full Athletics Excellency, Thunder's Might and Ten Ox Meditation, rolling eighteen successes. The player spends six of these successes to raise the Solar's Strength by two–the minimum needed to accomplish the feat. Because the player still has twelve successes left over, and has raised the Solar's Strength to 7, the Exalt is able to pull the wagon from the sand trap immediately.",
     "Node": {
       "x": 8,
       "y": 2
     },
-    "Parents": []
+    "Parents": [
+    {
+      "x": 7,
+      "y": 1
+    },
+    {
+      "x": 9,
+      "y": 1
+    }
+    ]
   },
   {
     "Name": "Feather Foot Style",
@@ -280,7 +239,7 @@
     "Type": "Reflexive",
     "Keywords": "Mute",
     "Duration": "Until the Exalt stops running",
-    "Prerequisites": "Graceful Crane Stance, Lightning Speed",
+    "Prerequisites": ["Graceful Crane Stance", "Lightning Speed"],
     "Description": "Lightening her step and balancing carefully, the Exalt may run across fluid surfaces. She may dash over unstable surfaces as if they were solid and move over surfaces no thicker than rice paper without breaking through. At full speed, she may also move across lava or other dangerous surfaces without getting hurt. This effect lasts until the Exalt stops dashing. As long as she is moving at a quick pace, she need not pay the activation cost again.At Athletics 5, Essence 2+, the Exalt can pause on unstable surfaces without breaking through, changing the duration of this Charm to “one stunt.” She can walk slowly across the surface of a still pond, pause on the crumbling parapet of a castle to give a speech, and so on. This means if she's using the Charm to dash across the water to reach a boat, then decides to pause on the water's surface to address the captain, she must use the Charm twice. If the Exalt is still standing on an unstable surface and is unwilling or unable to renew Feather Foot Style, she becomes subject to the normal laws of gravity and buoyancy. Also note: while she may safely dash across a caustic or burning surface, standing on top of lava and other dangerous surfaces will cause harm.",
     "Node": {
       "x": 5,
@@ -289,8 +248,11 @@
     "Parents": [
       {
         "x": 5,
-        "y": 3
-      }
+        "y": 1
+      },{
+      "x": 3,
+      "y": 1
+    }
     ]
   },
   {
@@ -304,13 +266,18 @@
     "Type": "Reflexive",
     "Keywords": "Mute",
     "Duration": "(Essence +1) turns",
-    "Prerequisites": "Feather Foot Style",
+    "Prerequisites": ["Feather Foot Style"],
     "Description": "With speed and balance heightened to the Nth degree, the Solar's Essence may bond with a surface, allowing her to run up walls or stand upside down on horizontal surfaces such as tree branches, bridge bottoms or overhangs, or to lay flat against a ceiling looking down at her prey. Like Feather Foot Style, if the Solar is unable or unwilling to renew this effect, her preternatural grip dwindles and she may plummet and be subject to falling damage. Spider Foot Style's effect can be extended for one round by a well-described stunt during a turn in which the Charm is active.",
     "Node": {
       "x": 5,
       "y": 3
     },
-    "Parents": []
+    "Parents": [
+    {
+      "x": 5,
+      "y": 2
+    }
+    ]
   },
   {
     "Name": "Unbound Eagle Approach",
@@ -323,7 +290,7 @@
     "Type": "Permanent",
     "Keywords": "None",
     "Duration": "Permanent",
-    "Prerequisites": "Soaring Crane Leap",
+    "Prerequisites": ["Soaring Crane Leap"],
     "Description": "It is the Solar's nature to rise above. Meditating on the tyrannical bonds of gravity, the Exalt learns to separate her Essence from that which pulls her down. By paying two extra motes to the activation of Soaring Crane Leap, the Exalt may drift across a horizontal range band without initial thrust, allowing her to plane along low ceilings or avoid traps that might detect a more wild leaping motion. In addition, she can use this Charm on each round after activating Soaring Crane Leap to continue to glide across range bands without dropping down.",
     "Node": {
       "x": 7,
@@ -335,8 +302,8 @@
         "y": 4
       },
       {
-        "x": 7,
-        "y": 4
+        "x": 6,
+        "y": 3
       }
     ]
   },
@@ -351,13 +318,20 @@
     "Type": "Supplemental",
     "Keywords": "Dual",
     "Duration": "Instant",
-    "Prerequisites": "Graceful Crane Stance, Lightning Speed",
+    "Prerequisites": ["Graceful Crane Stance", "Lightning Speed"],
     "Description": "Meditating on the frozen moment, the Lawgiver sees the universe aligning around the neck of her target. Through strength, balance and control, she pulls at the distance between herself and her foe, and flashes in for the kill. The Exalt may use this Charm as far away as medium range, to instantly flash past her opponent, striking him at close range. If her attack is withering, it deals double damage after soak, but before damage is rolled. If it is decisive, it adds her Essence score to the base damage of the attack. As the Solar slides past her opponent, she ends the attack standing at close range. This counts as the character's movement for the round. In order to use this Charm, the Solar must be at higher Initiative than her opponent, and at 6+ Initiative. Leaping Tiger Attack is explicitly allowed to be used in combination with the Charms of other Abilities, but is incompatible with Thunderbolt Attack Prana and Eagle-Wing Style.",
     "Node": {
       "x": 4,
       "y": 2
     },
-    "Parents": []
+    "Parents": [{
+      "x": 3,
+      "y": 1
+    },{
+      "x": 5,
+      "y": 1
+    }
+    ]
   },
   {
     "Name": "Racing Hare Method",
@@ -370,7 +344,7 @@
     "Type": "Reflexive",
     "Keywords": "None",
     "Duration": "One hour",
-    "Prerequisites": "Lightning Speed",
+    "Prerequisites": ["Lightning Speed"],
     "Description": "Attuned to Essence currents that flow through the world, the Solar moves as if in a waking dream. She travels in flashing sprints and sparking leaps, moving from branch to branch like a skipping stone and leaving dust clouds in her wake. This Charm lasts one hour. During this hour, the Solar moves up to three range bands per turn,depending on the terrain and her ability to move at an uninterrupted clip. If she joins battle, her speed is greatly slowed, as she must focus more completely on her environment. The Solar resumes moving one range band per turn, but the Charm still has an effect: double 9s on rush attempts, and for every 10 rolled on a rush, the Solar gains a point of Initiative. If the Exalt knows the Charm Triumph-Forged God-Body, the rushes instead gain (Essence) bonus dice. These benefits also apply to each intervalof a test of speed. If the Lawgiver chooses to renewthis technique at the end of an hour, ignore the Will-power cost.",
     "Node": {
       "x": 2,
@@ -378,12 +352,8 @@
     },
     "Parents": [
       {
-        "x": 2,
-        "y": 3
-      },
-      {
         "x": 3,
-        "y": 4
+        "y": 1
       }
     ]
   },
@@ -398,7 +368,7 @@
     "Type": "Permanent",
     "Keywords": "None",
     "Duration": "Permanent",
-    "Prerequisites": "Lightning Speed",
+    "Prerequisites": ["Lightning Speed"],
     "Description": "The Solar learns to channel the exhilaration she feels at chasing an opponent into a burst of adrenal power that restores her spirit. On successfully rushing an opponent, the Exalt gains three motes to be used on Athletics Charms. These motes last until she has taken her next turn.",
     "Node": {
       "x": 1,
@@ -406,8 +376,8 @@
     },
     "Parents": [
     {
-   	  "x": 7,
-   	  "y": 6
+   	  "x": 3,
+   	  "y": 1
     }
     ]
   },
@@ -422,7 +392,7 @@
     "Type": "Permanent",
     "Keywords": "None",
     "Duration": "Permanent",
-    "Prerequisites": "Winning Stride Discipline",
+    "Prerequisites": ["Winning Stride Discipline"],
     "Description": "The Solar trains her body to feel the Essence of those she would outrun, matching their strength with her stride. When she falls behind in a test of speed, every 10 her fastest opponent rolls also counts as a single success to the Solar's own roll. This Charm also functions in rushes, to aid in countering the target's attempts to avoid the Solar.",
     "Node": {
       "x": 3,
@@ -431,15 +401,7 @@
     "Parents": [
       {
         "x": 3,
-        "y": 4
-      },
-      {
-        "x": 4,
-        "y": 4
-      },
-      {
-        "x": 6,
-        "y": 4
+        "y": 2
       }
     ]
   },
@@ -454,13 +416,18 @@
     "Type": "Supplemental",
     "Keywords": "Decisive-only",
     "Duration": "Instant",
-    "Prerequisites": "Increasing Strength Exercise",
+    "Prerequisites": ["Increasing Strength Exercise"],
     "Description": "Channeling her strength through her Essence, the Solar's attacks strike harder and deeper. This Charm supplements a close range decisive attack, allowing the Solar to ignore (her Strength) hardness. Armor-Eating Strike is expressly permitted to be used in conjunction with Charms of other Abilities.",
     "Node": {
       "x": 10,
       "y": 2
     },
-    "Parents": []
+    "Parents": [
+    {
+      "x": 9,
+      "y": 1
+    }
+    ]
   },
   {
     "Name": "Thunder's Might",
@@ -473,7 +440,7 @@
     "Type": "Reflexive",
     "Keywords": "None",
     "Duration": "Instant",
-    "Prerequisites": "Increasing Strength Exercise",
+    "Prerequisites": ["Increasing Strength Exercise"],
     "Description": "Through intense muscle control, the Solar's insides erupt with surging Essence power. Reroll all non-successes on a feat of strength.",
     "Node": {
       "x": 9,
@@ -482,7 +449,7 @@
     "Parents": [
       {
         "x": 9,
-        "y": 3
+        "y": 1
       }
     ]
   },
@@ -497,7 +464,7 @@
     "Type": "Simple",
     "Keywords": "None",
     "Duration": "Until she stops leaping",
-    "Prerequisites": "Unbound Eagle Approach",
+    "Prerequisites": ["Unbound Eagle Approach"],
     "Description": "The Solar gathers enormous spiritual pressure into her legs and launches herself skyward. The Exalt makes a wild leap four range bands forward or three straight up. As the force of her leap is almost uncontrolled, she may not leap fewer than three range bands with this Charm. This Charm stays active every turn until the Solar stops leaping across range bands, making it possible for the Exalt to cross a mountain range in minutes. If this Charm is combined with Monkey Leap Technique, the Exalt can make a controlled leap to the second range band. If opponents are within close range before the Exalt activates this Charm, she must succeed at a disengage action before it can be activated. All minor opponents within close range when the Solar uses this Charm suffer automatic knockdown, and more impressive opponents may need to roll to keep their balance.",
     "Node": {
       "x": 7,
@@ -506,7 +473,7 @@
     "Parents": [
       {
         "x": 7,
-        "y": 5
+        "y": 3
       }
     ]
   },
@@ -521,7 +488,7 @@
     "Type": "Reflexive",
     "Keywords": "None",
     "Duration": "Indefinite",
-    "Prerequisites": "Mountain-Crossing Leap Technique",
+    "Prerequisites": ["Mountain-Crossing Leap Technique"],
     "Description": "Focusing her Essence down her spine and through her lower extremities, the Exalt repels the ground with a tremendous leap. The Exalt locks onto an aerial target, whether it be a Haslanti skyship or a Stormwind Rider, leaps toward it and begins to soar. This moves her up to two range bands, expending her movement action, and allows her to continue flying one range band through the air on subsequent turns by paying two motes or two Initiative per turn. Once she is within combat range of an opponent, attacking is sufficient enough movement to keep her airborne. If she is a ranged fighter, she may also use Unbound Eagle Approach, paying two motes in order to hang in the air, planing along an air current as she takes an aim action. Lastly, the Solar can also channel a burst of speed for two motes, allowing her to rush or disengage from appropriate distances.If she fails to activate the Charm, gets knocked off-course or otherwise begins to fall, Eagle-Wing Style cannot be reactivated until she touches down and is able to leap again. Eagle-Wing Style can be activated at the apex of Mountain-Crossing Leap Technique, in which case it costs only four motes to activate.",
     "Node": {
       "x": 7,
@@ -545,13 +512,18 @@
     "Type": "Supplemental",
     "Keywords": "None",
     "Duration": "Instant",
-    "Prerequisites": "Racing Hare Method",
+    "Prerequisites": ["Racing Hare Method"],
     "Description": "A Solar with this Charm can attempt a rush from medium range. If successful, she will automatically move one range band closer to her target on his next two turns, in addition to her normal movement.",
     "Node": {
       "x": 2,
       "y": 3
     },
-    "Parents": []
+    "Parents": [
+    {
+      "x": 2,
+      "y": 2
+    }
+    ]
   },
   {
     "Name": "Hurricane Spirit Speed",
@@ -564,7 +536,7 @@
     "Type": "Supplemental",
     "Keywords": "None",
     "Duration": "Instant",
-    "Prerequisites": "Arete-Driven Marathon Stride",
+    "Prerequisites": ["Arete-Driven Marathon Stride"],
     "Description": "Like a living storm, the Exalt gathers momentum and speed as she races over land. In combat, the Exalt may spend Initiative for successes to rush a target. In a test of speed she may use it at each interval.",
     "Node": {
       "x": 4,
@@ -573,8 +545,12 @@
     "Parents": [
       {
         "x": 3,
-        "y": 7
-      }
+        "y": 3
+      },
+      {
+     	 "x": 5,
+     	 "y": 3
+    }
     ]
   },
   {
@@ -588,7 +564,7 @@
     "Type": "Reflexive",
     "Keywords": "None",
     "Duration": "Instant",
-    "Prerequisites": "Arete-Driven Marathon Stride, Racing Hare Method",
+    "Prerequisites": ["Arete-Driven Marathon Stride", "Racing Hare Method"],
     "Description": "The Exalt projects herself forward on a pulse of Essence, faster than a heartbeat, moving like a blur. The Exalt may attempt a rush against an opponent up to three range bands away. If successful, she flashes out in a burst of speed, and flashes in at close range to her target that same instant. This Charm removes the flurry penalty for an attack made after a rush. If used in conjunction with Racing Hare Method, the Exalt can rush an opponent up to four range bands distant.",
     "Node": {
       "x": 3,
@@ -597,7 +573,11 @@
     "Parents": [
       {
         "x": 3,
-        "y": 5
+        "y": 3
+      },
+      {
+        "x": 2,
+        "y": 2
       }
     ]
   },
@@ -612,7 +592,7 @@
     "Type": "Supplemental",
     "Keywords": "None",
     "Duration": "Instant",
-    "Prerequisites": "Thunder's Might",
+    "Prerequisites": ["Thunder's Might"],
     "Description": "The Exalt's body is momentarily framed with surging power. This Charm supplements a feat of strength, adding (Strength) non-Charm bonus dice to the attempt. This is explicitly compatible with the bonus granted by Increasing Strength Exercise.",
     "Node": {
       "x": 9,
@@ -621,7 +601,7 @@
     "Parents": [
       {
         "x": 9,
-        "y": 4
+        "y": 2
       }
     ]
   },
@@ -636,7 +616,7 @@
     "Type": "Permanent",
     "Keywords": "None",
     "Duration": "Permanent",
-    "Prerequisites": "Power Suffusing Form Technique",
+    "Prerequisites": ["Power Suffusing Form Technique"],
     "Description": "Striving toward physical and spiritual perfection, the Solar is an exemplar of physical might. When performing feats of strength, the cost of the Athletics Excellency is permanently reduced to one mote per two dice.",
     "Node": {
       "x": 9,
@@ -645,7 +625,7 @@
     "Parents": [
       {
         "x": 9,
-        "y": 5
+        "y": 3
       }
     ]
   },
@@ -660,13 +640,26 @@
     "Type": "Permanent",
     "Keywords": "None",
     "Duration": "Permanent",
-    "Prerequisites": "Arete-Driven Marathon Stride, Ten Ox Meditation, Unbound Eagle Approach",
+    "Prerequisites": ["Arete-Driven Marathon Stride", "Ten Ox Meditation", "Unbound Eagle Approach"],
     "Description": "The Solar possesses a body and spirit intensified by thousands of hours of vigorous exercise and meditation. This Charm applies the double 9s rule to every Athletics roll.",
     "Node": {
       "x": 6,
       "y": 4
     },
-    "Parents": []
+    "Parents": [
+    {
+        "x": 3,
+        "y": 3
+      },
+      {
+        "x": 6,
+        "y": 3
+      },
+      {
+        "x": 7,
+        "y": 3
+      }
+      ]
   },
   {
     "Name": "One Extra Step",
@@ -679,7 +672,7 @@
     "Type": "Permanent",
     "Keywords": "None",
     "Duration": "Permanent",
-    "Prerequisites": "Godspeed Steps",
+    "Prerequisites": ["Godspeed Steps"],
     "Description": "Once per scene, the Exalt may take a second movement action on her turn.",
     "Node": {
       "x": 3,
@@ -688,7 +681,7 @@
     "Parents": [
       {
         "x": 3,
-        "y": 6
+        "y": 4
       }
     ]
   },
@@ -703,13 +696,22 @@
     "Type": "Permanent",
     "Keywords": "None",
     "Duration": "Permanent",
-    "Prerequisites": "Eagle-Wing Style, Onrush Burst Method",
+    "Prerequisites": ["Eagle-Wing Style", "Onrush Burst Method"],
     "Description": "Relentless in pursuit of her ideals, the Lawgiver's anima becomes like a pair of burning wings that carry her across the sky. When using Eagle-Wing Style to engage in aerial combat, and when her anima is at the bonfire level, the Solar's attacks benefit from the effects of Onrush Burst Method, generating motes that can be used to pay theactivation costs of Athletics Charms. When in use, the Solar's anima typically resolves into wings that resemble an eagle's or something else appropriate to the Solar's iconic manifestation.",
     "Node": {
       "x": 7,
       "y": 6
     },
-    "Parents": []
+    "Parents": [
+    {
+        "x": 6,
+        "y": 5
+      },
+      {
+        "x": 7,
+        "y": 5
+      }
+      ]
   },
   {
     "Name": "Aegis of Unstoppable Force",
@@ -722,7 +724,7 @@
     "Type": "Permanent",
     "Keywords": "None",
     "Duration": "Permanent",
-    "Prerequisites": "Legion Aurochs Method",
+    "Prerequisites": ["Legion Aurochs Method"],
     "Description": "The Solar's might is permanently enhanced, lowering the difficulty of all feats of strength by two.",
     "Node": {
       "x": 9,
@@ -731,7 +733,7 @@
     "Parents": [
       {
         "x": 9,
-        "y": 6
+        "y": 4
       }
     ]
   },
@@ -746,7 +748,7 @@
     "Type": "Permanent",
     "Keywords": "None",
     "Duration": "Permanent",
-    "Prerequisites": "One Extra Step",
+    "Prerequisites": ["One Extra Step"],
     "Description": "Once per scene, the Solar may reflexively channel a burst of impossible speed to automatically succeed at a rush. In a test of speed, she may use this to generate one more success than her opponent on any one interval. Ifmultiple Solars use this on the same interval, they all assume a result one greater than the highest number of successes.",
     "Node": {
       "x": 3,
@@ -755,7 +757,7 @@
     "Parents": [
       {
         "x": 3,
-        "y": 7
+        "y": 5
       }
     ]
   },
@@ -770,13 +772,22 @@
     "Type": "",
     "Keywords": "",
     "Duration": "",
-    "Prerequisites": "",
+    "Prerequisites": [],
     "Description": "Become as fast as the sunlight, turning yourself into a battle group with a Size of half your Essence and Magnitude 10. Please refer to the book.",
     "Node": {
       "x": 3,
       "y": 7
     },
-    "Parents": []
+    "Parents": [
+    {
+        "x": 3,
+        "y": 6
+      },
+      {
+        "x": 4,
+        "y": 4
+      }
+      ]
   },
   {
     "Name": "Nine Aeons Thew",
@@ -789,13 +800,18 @@
     "Type": "Supplemental",
     "Keywords": "None",
     "Duration": "Instant",
-    "Prerequisites": "Aegis of Unstoppable Force",
+    "Prerequisites": ["Aegis of Unstoppable Force"],
     "Description": "Summoning the might of untold forces, the Exalt crosses the threshold of legend. This Charm is the gateway to outrageous shows of physical prowess–the Solar gains double 7s to attempt a feat of strength, and she counts as meeting its Strength prerequisite (p. 229) no matter how high that requirement might be.Awareness",
     "Node": {
       "x": 9,
       "y": 6
     },
-    "Parents": []
+    "Parents": [
+    {
+        "x": 9,
+        "y": 5
+      }
+      ]
   }
 ],
 "width": 11,
